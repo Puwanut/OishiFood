@@ -54,7 +54,6 @@ ul.navbar-nav {
 .owl-next:hover, .owl-prev:hover {background: white}
 .owl-next:focus, .owl-prev:focus {outline: none;}
 
-
 .owl-carousel:hover .owl-nav .owl-prev {opacity: 1 !important;}
 .owl-carousel:hover .owl-nav .owl-next {opacity: 1 !important;}
 
@@ -86,7 +85,21 @@ ul.navbar-nav {
 }
 
 .img-bg-homepage {
-    height: 1000px;
+    height: 2000px;
     background: url('https://www.oishifood.com/img/bg_homepage.jpg') top center no-repeat;
     background-size: 100% auto;
 }
+
+.header-sign {
+    background: url('https://www.oishifood.com/img/header-bg.png');
+    height: 112px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 20px 20px 20px;
+}
+
+.owl-carousel#product-recommend .owl-nav .owl-prev { left: -30px; }
+.owl-carousel#product-recommend .owl-nav .owl-next { right: -30px; }
