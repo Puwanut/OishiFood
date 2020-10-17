@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
 
+    <!-- for icon (arrow up) in font awesome -->
+    <!-- <link href="fontawesome-free-5.15.1-web\css\all.css" rel="stylesheet"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -28,7 +32,7 @@
 
 </head>
 
-<body onload="document.body.style.opacity='1'">
+<body onload="document.body.style.opacity='1'" onbeforeunload="document.body.style.opacity='0'">
 
     <header class="fixed-top">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -266,7 +270,7 @@
 
 
                 </div>
-                <div class="col-md-3 footer-border-left-last">
+                <div class="col-md-3">
                     <div class="contact">
                         <h1>Contact Us</h1>
                         <h2>บริษัท โออิชิ กรุ๊ป จำกัด (มหาชน)</h2>
@@ -297,6 +301,9 @@
         </div>
     </footer>
 
+    <button id="btn-gotoTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
     <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
@@ -342,8 +349,23 @@
                 $("#navButton").click(function () {
                     $(".navbar").toggleClass("bg-light");
                 });
-            });
 
+                // gotoTop Function
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 400) {
+                            $('#btn-gotoTop').fadeIn();
+                        } else {
+                            $('#btn-gotoTop').fadeOut();
+                        }
+                    });
+
+                    $('#btn-gotoTop').click(function () {
+                        $('body,html').animate({scrollTop: 0}, 0);
+                    });
+                });
+
+            });
     </script>
 
 </body>

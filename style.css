@@ -2,6 +2,10 @@
     font-family: 'Kanit', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     opacity: 0;
     transition: opacity 1.5s;
@@ -62,10 +66,10 @@ ul.navbar-nav {
 .owl-carousel:hover .owl-nav .owl-prev {opacity: 1 !important;}
 .owl-carousel:hover .owl-nav .owl-next {opacity: 1 !important;}
 
-.owl-theme .owl-nav [class*=owl-]:hover {
+/* .owl-theme .owl-nav [class*=owl-]:hover {
     background-color: red;
     color: #000;
-}
+} */
 
 /* End Banner Owl-Carousel */
 
@@ -131,3 +135,27 @@ footer .container .row .col-md-3 a:hover {
     border-right: 1px solid rgba(0, 0, 0, 0.15);
 
 }
+
+/* Footer */
+
+/* gotoTop */
+#btn-gotoTop {
+    display: none;
+    z-index: 299;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: background-color .2s;
+}
+
+#btn-gotoTop:hover {background-color: red;}
+#btn-gotoTop:focus {outline: none;}
+/* gotoTop */
