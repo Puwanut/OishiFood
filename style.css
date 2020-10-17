@@ -1,0 +1,92 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* Header */
+header.fixed-top {
+    background-image: url("https://www.oishifood.com/img/tear_top.png");
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.navbar-brand {
+    margin-right: 40px;
+}
+
+.menu-line {
+    width: 100%;
+    top: 0;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-border-image: -webkit-linear-gradient(left, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
+    border-image: linear-gradient(to right, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+ul.navbar-nav {
+    font-size: 12px;
+}
+
+/* End Header */
+
+
+/* Banner Owl-Carousel */
+.banner {
+    margin-top: 100px;
+}
+
+.owl-prev, .owl-next {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    opacity: 0 !important;
+    transition: all 0.45s ease;
+}
+.owl-prev { left: 0px; }
+.owl-next { right: 0px; }
+
+.owl-next:hover, .owl-prev:hover {background: white}
+.owl-next:focus, .owl-prev:focus {outline: none;}
+
+
+.owl-carousel:hover .owl-nav .owl-prev {opacity: 1 !important;}
+.owl-carousel:hover .owl-nav .owl-next {opacity: 1 !important;}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: red;
+    color: #000;
+}
+
+/* End Banner Owl-Carousel */
+
+
+/* Main Content */
+.main-content {
+    position: relative;
+    margin-top: -50px;
+}
+
+.img-tear-bottom {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 3;
+    background-image: url('https://www.oishifood.com/img/tear_bottom.png');
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.img-bg-homepage {
+    height: 1000px;
+    background: url('https://www.oishifood.com/img/bg_homepage.jpg') top center no-repeat;
+    background-size: 100% auto;
+}
