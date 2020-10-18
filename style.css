@@ -113,6 +113,41 @@ ul.navbar-nav {
 .owl-carousel#product-recommend .owl-nav .owl-prev { left: -30px; }
 .owl-carousel#product-recommend .owl-nav .owl-next { right: -30px; }
 
+.owl-carousel#product-recommend .owl-item img {
+    transition: all .3s;
+}
+.owl-carousel#product-recommend .owl-item:hover img {
+    transform: scale(1.03);
+}
+
+/* to remove slide down effect in Class fade */
+.modal.fade .modal-dialog{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-header button.close {
+    width: 45px;
+    height: 40px;
+    padding: 0px;
+    opacity: 1;
+}
+.modal-header button.close:focus {
+    outline: none;
+}
+
 /* Main Content */
 
 /* Footer */

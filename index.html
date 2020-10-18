@@ -185,7 +185,7 @@
                         <h3>お勧め</h3>
                     </div>
                     <div class="owl-carousel owl-theme text-center mt-5" id="product-recommend">
-                        <div class="item">
+                        <div class="item" data-toggle="modal" data-target="#modalrecommend1">
                             <img src="https://www.oishifood.com/upload_file/packed/190418045501_Pork-Gyoza.png"
                                 class="img-fluid">
                             <h5 class="mt-3">โออิชิ อีทโตะ เกี๊ยวซ่า ไส้หมู</h5>
@@ -212,6 +212,26 @@
                         </div>
 
                     </div>
+                    <div class="modal fade" id="modalrecommend1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="bg-danger close" data-dismiss="modal" aria-label="Close">
+                                        <img src="https://www.oishifood.com/img/x-close.png" class="img-fluid">
+                                    </button>
+                                </div>
+                                <div class="modal-body p-5">
+                                    <img src="https://www.oishifood.com/upload_file/packed/190418045501_Pork-Gyoza.png" class="img-fluid">
+                                    <h3 class="text-center mt-3">โออิชิ อีทโตะ เกี๊ยวซ่า ไส้หมู</h3>
+                                    <p>
+                                        บรรจุ: 5 ชิ้น<br>
+                                        ราคา: 32 บาท<br>
+                                        จำหน่ายที่: 7-Eleven
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Recommend -->
 
@@ -226,7 +246,7 @@
     </div>
 
     <footer>
-        <div class="container pt-4 pl-3 pr-3 footer-border text-black">
+        <div class="container pt-4 pl-3 pr-3 footer-border">
             <div class="row">
                 <div class="col-md-3 footer-border-right">
                     <a href="/" >Homepage</a><br>
@@ -319,7 +339,8 @@
                         '<img src="https://www.oishifood.com/img/owl-prev.png" class="img-fluid">',
                         '<img src="https://www.oishifood.com/img/owl-next.png" class="img-fluid">'],
                     items: 1,
-                    autoplay: 3000
+                    autoplay: 3000,
+                    autoplayHoverPause: true
                 });
                 $('.owl-carousel#product-recommend').owlCarousel({
                     loop: true,
@@ -331,6 +352,7 @@
                         '<img src="https://www.oishifood.com/img/owl-next.png" class="img-fluid">'],
                     items: 4,
                     autoplay: 3000,
+                    autoplayHoverPause: true,
                     responsive: {
                         467: {
                             items: 3
