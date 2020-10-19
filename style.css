@@ -308,6 +308,10 @@ ul.navbar-nav li a div{
     right: 0;
     top: -65px;
 }
+
+#owl-oishi-restaurant .owl-dots .owl-dot span{
+    margin: 4px;
+}
 #owl-oishi-restaurant .owl-dots .owl-dot:focus{outline: none;}
 #owl-oishi-restaurant .owl-dots .active span{background-color: #f01c24;}
 #owl-oishi-restaurant .owl-dots span{background-color: #f19497;}
@@ -370,6 +374,40 @@ footer .container .row .col-md-3 ul li a{
 
 }
 
+.social-icon {
+    margin: 0 5px 5px 0;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    background-color: #444;
+    transition: all .3s ease;
+}
+
+.social-icon i {
+    top: 0;
+    line-height: 40px;
+    color: white;
+    display: block;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.social-icon:hover i{
+    top: -40px;
+}
+
+#facebook-icon:hover{background-color: #3b5998;}
+#youtube-icon:hover{background-color: #ff0000;}
+#twitter-icon:hover{background-color: #1DA1F2;}
+
+
+.fa-facebook-f:before {
+    content: "\f39e" !important;
+}
 /* Footer */
 
 /* gotoTop */
