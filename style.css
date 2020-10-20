@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
 
-*{
-    font-family: 'Kanit', sans-serif;
-}
-
 :root{
     --font-extra-light: 200;
     --font-light: 300;
     --font-regular: 400;
     --font-medium: 500;
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
 }
 
 .font-extra-light {font-weight: var(--font-extra-light);}
@@ -36,17 +36,23 @@ header {
 
 header .navbar .container {
     padding: 0 25px;
+    margin: auto;
 }
 .navbar-brand {
     margin-right: 40px;
 }
 
-ul.navbar-nav li a{
-    padding: 20px 15px 10px;
-}
-
 ul.navbar-nav li a div{
     color: #333333;
+    transition: all .2s;
+}
+
+ul.navbar-nav li:hover a div {
+    color: red;
+}
+
+ul.navbar-nav li a.nav-item.nav-link {
+    padding: 0 20px 15px 10px;
 }
 
 .menu-line {
@@ -262,8 +268,6 @@ ul.navbar-nav li a div{
     display: inline-block;
     padding: 0 32px;
     margin: 5px;
-    font-size: 24px;
-    font-weight: var(--font-light);
     height: 46px;
     line-height: 46px;
     cursor: pointer;
@@ -279,6 +283,7 @@ ul.navbar-nav li a div{
     right: -38px;
     width: 38px;
     height: 46px;
+    font-size: 24px;
     line-height: 46px;
     background-color: rgba(0, 0, 0, 0.15);
     transition: all .2s ease-in-out;
@@ -295,6 +300,8 @@ ul.navbar-nav li a div{
 }
 
 .btn-seemore span {
+    font-size: 24px;
+    font-weight: var(--font-light);
     transition: all .2s ease-in-out;
 }
 
@@ -396,7 +403,33 @@ footer .container .row .col-md-3 ul li a{
     transition: all .3s ease;
 }
 
-.social-icon:hover i{
+/* circle on navbar */
+.social-icon.si-small {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    transition: none;
+}
+.social-icon.si-small i {
+    line-height: 30px;
+}
+
+#language-button {
+    font-weight: var(--font-light);
+    font-size: 12px;
+    line-height: 30px;
+    color: white;
+    background-color: #f01c24;
+}
+
+#language-button:hover {
+    text-decoration: none;
+    background-color: #cc2228;
+}
+/* circle on navbar */
+
+
+footer.social-icon:hover i{
     top: -40px;
 }
 
