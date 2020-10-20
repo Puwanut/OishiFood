@@ -145,7 +145,6 @@ ul.navbar-nav li a.nav-item.nav-link {
 }
 .header-sign h2 {
     font-size: 24px;
-    font-weight: var(--font-extra-light);
     margin-bottom: 0px;
 }
 
@@ -279,7 +278,6 @@ ul.navbar-nav li a.nav-item.nav-link {
     position: relative;
     display: inline-block;
     padding: 0 32px;
-    margin: 5px;
     height: 46px;
     line-height: 46px;
     cursor: pointer;
@@ -476,3 +474,25 @@ footer .container .row .col-md-3 ul li a{
 #btn-gotoTop:hover {background-color: red;}
 #btn-gotoTop:focus {outline: none;}
 /* gotoTop */
+
+
+
+/* PAGE RESTAURANT */
+#all-restaurant-item div{
+    margin-bottom: 15px;
+}
+#chopstick-shrimp {
+    top: 13%;
+}
+
+@media (max-width: 1499px) {
+    #chopstick-shrimp {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #chopstick-shrimp {
+        width: 280px;
+    }
+}
