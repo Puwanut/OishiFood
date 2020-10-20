@@ -441,7 +441,7 @@ footer .container .row .col-md-3 ul li a{
 /* circle on navbar */
 
 
-footer.social-icon:hover i{
+.follow .social-icon:hover i{
     top: -40px;
 }
 
