@@ -149,6 +149,18 @@ ul.navbar-nav li a.nav-item.nav-link {
     margin-bottom: 0px;
 }
 
+.chopstick {
+    top:10%;
+    right: 0;
+    position: absolute;
+    animation: slideInFromRight 1s .5s ease-out;
+}
+
+@keyframes slideInFromRight {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(0);}
+}
+
 #owl-product-recommend .owl-nav .owl-prev {
     left: -36px;
     width: 60px;
