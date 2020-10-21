@@ -1,0 +1,19 @@
+#all-restaurant-item div{
+    margin-bottom: 15px;
+}
+
+#chopstick-shrimp {
+    top: 13%;
+}
+
+@media (max-width: 1499px) {
+    #chopstick-shrimp {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #chopstick-shrimp {
+        width: 280px;
+    }
+}
