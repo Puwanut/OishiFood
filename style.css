@@ -72,6 +72,7 @@ ul.navbar-nav li a.nav-item.nav-link {
 /* Banner Owl-Carousel */
 .banner {
     margin-top: 80px;
+    position: sticky;
 }
 
 .owl-prev, .owl-next {
