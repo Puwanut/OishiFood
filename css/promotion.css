@@ -1,0 +1,119 @@
+.oishi-header{
+    float: left;
+    color: #666666;
+}
+.oishi-header h1{
+    color: #464646;
+    font-size: 36px;
+}
+.oishi-header span{
+    color: #666666;
+    font-size: 36px;
+}
+.branch-form-control{
+    float: right;
+    font-family: 'Kanit-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 14px;
+    line-height: 1.42857143;
+    background-color: #f2f2f2;
+    background-image: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 0 !important;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+.col_last{
+    float: right;
+}
+.branch-form-control option{
+    font-family: 'Kanit-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+}
+
+
+.close-menu-popup{
+	position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+.button-close-popup {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #dd343c;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#content p,.post-grid.grid-3 .entry-title h2 {
+    min-height: 45px;
+}
+.promotion-block .entry-image{
+    margin-bottom: 20px;
+}
+.promotion-block .pic {
+	margin-bottom: 20px;
+}
+.promotion-block .detail {
+	margin-bottom: 10px;
+}
+.promotion-block .detail p {
+	margin: 0;
+}
+.promotion-block .date {
+	margin-bottom: 15px;
+}
+.promotion-block .date p {
+	color: #f01c24;
+	font-size: 14px;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.promotion-block .entry-title {
+	margin-bottom: 10px;
+}
+.promotion-block .entry-title h2 {
+    font-family: 'Kanit-Light', sans-serif;
+    height: 45px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #464646;
+	letter-spacing: 0;
+}
+.promotion-block .entry-date {
+	margin-bottom: 15px;
+}
+.promotion-block .entry-date p {
+    font-family: 'Kanit-Light', sans-serif;
+    height: 45px;
+	color: #f01c24;
+	font-size: 14px;
+	margin: 0;
+}

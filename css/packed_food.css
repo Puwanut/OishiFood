@@ -1,9 +1,23 @@
+.li-tab{
+    list-style-type: none;
+    float: left;
+}
 .ui-tabs-anchor:hover{
     text-decoration: none;
 }
+.ui-tabs-anchor img{
+    float: left;
+}
 .ui-tabs-anchor h1{
     font-size: 15.5px;
+    float: left;
 }
 .ui-tabs-anchor h2{
     font-size: 14px;
+    float: left;
+}
+.delivery-tab-menu .delivery-icon {
+    float: left;
+    margin-right: 15px;
+    /* padding-top: 15px; */
 }
