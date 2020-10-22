@@ -1,0 +1,9 @@
+.ui-tabs-anchor:hover{
+    text-decoration: none;
+}
+.ui-tabs-anchor h1{
+    font-size: 15.5px;
+}
+.ui-tabs-anchor h2{
+    font-size: 14px;
+}
