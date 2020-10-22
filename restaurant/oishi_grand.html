@@ -124,8 +124,20 @@
         <div class="img-bg" style="background-image: url('https://www.oishifood.com/img/bg_restaurant_main.jpg');">
             <div class="container" style="padding-top: 40px">
 
-                    <!-- Coding here -->
+                <!-- Coding here -->
+                <select id="province-dropdown">
+                    <option value="0">-- เลือกสถานที่ตั้ง --</option>
+                    <!-- <option value="กรุงเทพมหานคร" selected>กรุงเทพมหานคร</option> -->
+                </select>
 
+                <select id="branch-dropdown">
+                    <option value="0">-- เลือกสาขา --</option>
+                    <!-- <option value="กรุงเทพมหานคร" selected>กรุงเทพมหานคร</option> -->
+                </select>
+
+                <div id="showdetails">
+
+                </div>
             </div>
         </div>
     </div>
@@ -211,7 +223,7 @@
     </button>
 
     <script src="js/gototop.js" type="text/javascript"></script>
-
+    <script src="../js/branch_selector.js" type="text/javascript"></script>
 </body>
 
 </html>
