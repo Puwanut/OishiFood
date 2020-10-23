@@ -15,29 +15,31 @@ let province_dropdown = document.getElementById("province-dropdown");
 let branch_dropdown = document.getElementById("branch-dropdown");
 let provinces_name_array = [];
 let all_branch_name_array = [];
+let restaurant_number = 2;
 
 /*
-    data[0] = OISHI GRAND
-    data[1] = OISHI EATERIUM
-    data[2] = OISHI BUFFET
-    data[3] = Nikuya
-    data[4] = Shabush
-    data[5] = OISHI RAMEN
-    data[6] = KAKASHI
-    data[7] = HOU YUU
-    data[8] = OYOKI
-    data[9] = SAKAE
+    restaurant_number
+    0 = OISHI GRAND
+    1 = OISHI EATERIUM
+    2 = OISHI BUFFET
+    3 = Nikuya
+    4 = Shabushi
+    5 = OISHI RAMEN
+    6 = KAKASHI
+    7 = HOU YUU
+    8 = OYOKI
+    9 = SAKAE
 */
 
 function dataReportStatus(data) {
-    let restaurant_provinces = data[3].provinces;
+    let restaurant_provinces = data[restaurant_number].provinces;
 
     //load all province name to province-dropdown
     for (let i=0; i < restaurant_provinces.length; i++){
 
         let province_name = restaurant_provinces[i].province_name;
         let branches = restaurant_provinces[i].branch;
-        add_option("province-dropdown", province_name);
+        add_option("province-dropdown", province_name, i+1);
         provinces_name_array.push(province_name);
 
         // for (let i=0; i < provinces_name_array.length; i++){
@@ -53,6 +55,7 @@ function dataReportStatus(data) {
 
 
     }
+    console.log(all_branch_name_array);
 
     // setDefaultBranch("ชื่อจังหวัด", "ชื่อสาขา");
 
@@ -60,8 +63,8 @@ function dataReportStatus(data) {
 
 province_dropdown.onchange = function setBranchDropdown() {
     for (let i=0; i < provinces_name_array.length; i++){
-        if (provinces_name_array[i] === province_dropdown.value) {
-            clear_option("branch-dropdown");
+        clear_option("branch-dropdown");
+        if (i == parseInt(province_dropdown.value)-1) {
             load_option("branch-dropdown", all_branch_name_array[i]);
             break;
         }
@@ -69,15 +72,27 @@ province_dropdown.onchange = function setBranchDropdown() {
 }
 
 branch_dropdown.onchange = function setDetails() {
-    let selected_province = province_dropdown.value;
-    let selected_branch = branch_dropdown.value;
-    console.log(selected_province + selected_branch);
-    document.getElementById("showdetails").innerHTML = "<p>" + selected_province + " " + selected_branch + "</p>";
+    if (province_dropdown.value > 0 && branch_dropdown.value > 0){
+        let province_value = parseInt(province_dropdown.value)-1;
+        let branch_value = parseInt(branch_dropdown.value)-1;
+        let branch_data = json_data[restaurant_number].provinces[province_value].branch[branch_value];
+        document.getElementById("showdetails").innerHTML = "<p>" + branch_data.name +  "</p>" +
+        "<p>" + branch_data.address +  "</p>" +
+        "<p>" + branch_data.phone +  "</p>" +
+        "<p>" + branch_data.time +  "</p>" +
+        "<p>" + branch_data.latitude + ", " + branch_data.longtitude + "</p>" +
+        "<p>" + branch_data.name +  "</p>" +
+        "<p>" + branch_data.src +  "</p>" +
+        '<iframe src="' + branch_data.src + '" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
+
+    }
+
+
 }
 
-function add_option(select_id, text) {
+function add_option(select_id, text, value) {
     let select = document.getElementById(select_id);
-    select.options[select.options.length] = new Option(text, text);
+    select.options[select.options.length] = new Option(text, value);
 }
 
 function clear_option(select_id) {
@@ -88,7 +103,7 @@ function clear_option(select_id) {
 
 function load_option(select_id, option_array) {
     for (let i = 0; i < option_array.length; i++) {
-        add_option(select_id, option_array[i]);
+        add_option(select_id, option_array[i], i+1);
     }
 }
 
