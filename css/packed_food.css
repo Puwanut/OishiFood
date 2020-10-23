@@ -12,7 +12,36 @@
     transition: color .2s ease-out, border-bottom .2s ease-out;
 }
 
+.tab-container{
+    padding: 35px 0px 0px;
+}
 
+.packed-detail{
+    margin: 0;
+    padding: 0;
+}
+
+.packed-detail .col-md-3{
+    padding: 0px 15px;
+}
+.entry{
+    margin: 0 0 25px;
+    padding: 0 0 25px;
+}
+
+.entry img{
+    margin: 0 0 10px;
+}
+
+.entry p{
+    height: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 30px;
+}
 .menu-icon {
     float: left;
     width: 25px;
