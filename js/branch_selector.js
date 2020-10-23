@@ -13,9 +13,9 @@ request.send();
 
 let province_dropdown = document.getElementById("province-dropdown");
 let branch_dropdown = document.getElementById("branch-dropdown");
+let restaurant_number = parseInt(province_dropdown.getAttribute("restaurant_number"));
 let provinces_name_array = [];
 let all_branch_name_array = [];
-let restaurant_number = 2;
 
 /*
     restaurant_number
@@ -34,17 +34,15 @@ let restaurant_number = 2;
 function dataReportStatus(data) {
     let restaurant_provinces = data[restaurant_number].provinces;
 
-    //load all province name to province-dropdown
     for (let i=0; i < restaurant_provinces.length; i++){
 
+        //load all province name in province-dropdown
         let province_name = restaurant_provinces[i].province_name;
         let branches = restaurant_provinces[i].branch;
-        add_option("province-dropdown", province_name, i+1);
+        add_option(province_dropdown, province_name, i+1);
         provinces_name_array.push(province_name);
 
-        // for (let i=0; i < provinces_name_array.length; i++){
-
-        // }
+        //keep each branch name of provinces for prepare to load in branch-dropdown
         let branch_name_array = [];
         for (let j=0; j < branches.length; j++) {
             branch_name_array.push(branches[j].name);
@@ -52,26 +50,28 @@ function dataReportStatus(data) {
         console.log(branch_name_array);
         all_branch_name_array.push(branch_name_array);
 
-
-
     }
     console.log(all_branch_name_array);
-
-    // setDefaultBranch("ชื่อจังหวัด", "ชื่อสาขา");
+    setDefaultBranch(restaurant_number)
 
 }
 
-province_dropdown.onchange = function setBranchDropdown() {
+
+
+province_dropdown.onchange = function() {setBranchDropdown()};
+branch_dropdown.onchange = function() {setDetails()};
+
+function setBranchDropdown() {
     for (let i=0; i < provinces_name_array.length; i++){
-        clear_option("branch-dropdown");
+        clear_option(branch_dropdown);
         if (i == parseInt(province_dropdown.value)-1) {
-            load_option("branch-dropdown", all_branch_name_array[i]);
+            load_option(branch_dropdown, all_branch_name_array[i]);
             break;
         }
     }
 }
 
-branch_dropdown.onchange = function setDetails() {
+function setDetails() {
     if (province_dropdown.value > 0 && branch_dropdown.value > 0){
         let province_value = parseInt(province_dropdown.value)-1;
         let branch_value = parseInt(branch_dropdown.value)-1;
@@ -80,33 +80,40 @@ branch_dropdown.onchange = function setDetails() {
         "<p>" + branch_data.address +  "</p>" +
         "<p>" + branch_data.phone +  "</p>" +
         "<p>" + branch_data.time +  "</p>" +
-        "<p>" + branch_data.latitude + ", " + branch_data.longtitude + "</p>" +
-        "<p>" + branch_data.name +  "</p>" +
+        "<a href='https://maps.google.com?saddr=Current+Location&daddr=" + branch_data.latitude + "," + branch_data.longtitude + "' target='_blank'>click to navigate</a>" +
         "<p>" + branch_data.src +  "</p>" +
         '<iframe src="' + branch_data.src + '" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
-
     }
-
-
 }
 
-function add_option(select_id, text, value) {
-    let select = document.getElementById(select_id);
+function setDefaultBranch(restaurant_number){
+    switch (restaurant_number){
+        case 0: province_dropdown.value = 1; break;
+        case 1: province_dropdown.value = 2; break;
+        case 2: province_dropdown.value = 4; break;
+        case 3: province_dropdown.value = 4; break;
+        case 4: province_dropdown.value = 1; break;
+        case 5: province_dropdown.value = 1; break;
+        case 6: province_dropdown.value = 5; break;
+        case 7: province_dropdown.value = 1; break;
+        case 8: province_dropdown.value = 1; break;
+        case 9: province_dropdown.value = 1; break;
+    }
+    setBranchDropdown();
+    branch_dropdown.value = 1
+    setDetails();
+}
+
+function add_option(select, text, value) {
     select.options[select.options.length] = new Option(text, value);
 }
 
-function clear_option(select_id) {
-    let select = document.getElementById(select_id);
-    select.options.length = 0;
-    select.options[0] = new Option("-- เลือกสาขา --", "0");
+function clear_option(select) {
+    select.options.length = 1;
 }
 
-function load_option(select_id, option_array) {
+function load_option(select, option_array) {
     for (let i = 0; i < option_array.length; i++) {
-        add_option(select_id, option_array[i], i+1);
+        add_option(select, option_array[i], i+1);
     }
-}
-
-function open_googlemap(lat, lng) {
-    window.open('https://maps.google.com?saddr=Current+Location&daddr=' + latitude + ',' + longtitude + '');
 }
