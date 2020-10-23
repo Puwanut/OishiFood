@@ -11,7 +11,6 @@
 .owl-prev { left: 0px; }
 .owl-next { right: 0px; }
 
-.owl-next:hover, .owl-prev:hover {background: white}
 .owl-next:focus, .owl-prev:focus {outline: none;}
 
 .owl-carousel:hover .owl-nav .owl-prev {opacity: 1 !important;}
@@ -29,14 +28,20 @@
 }
 
 #owl-product-recommend .owl-nav .owl-prev {
-    left: -36px;
+    left: -46px;
     width: 60px;
     height: 60px;
 }
 #owl-product-recommend .owl-nav .owl-next {
-    right: -36px;
+    right: -46px;
     width: 60px;
     height: 60px;
+}
+#owl-product-recommend:hover .owl-nav .owl-prev{
+    left: -36px;
+}
+#owl-product-recommend:hover .owl-nav .owl-next{
+    right: -36px;
 }
 
 #owl-product-recommend .owl-item img {
@@ -52,16 +57,23 @@
 }
 
 #owl-oishi-restaurant .owl-nav .owl-prev {
-    left: -36px;
+    left: -46px;
     top: 35%;
     width: 60px;
     height: 60px;
 }
 #owl-oishi-restaurant .owl-nav .owl-next {
-    right: -36px;
+    right: -46px;
     top: 35%;
     width: 60px;
     height: 60px;
+}
+
+#owl-oishi-restaurant:hover .owl-nav .owl-prev{
+    left: -36px;
+}
+#owl-oishi-restaurant:hover .owl-nav .owl-next{
+    right: -36px;
 }
 
 #owl-oishi-restaurant .owl-dots{
