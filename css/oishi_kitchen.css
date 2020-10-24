@@ -1,0 +1,139 @@
+:root{
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+}
+
+#text-top {
+    font-size: 36px;
+}
+
+.logo-row {
+    display: inline-block;
+}
+
+.logo-brand {
+    width: 120px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.link-menu a {
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #E91E63;
+    border-radius: 10px;
+    background: pink;
+    color: black;
+    font-size: 15px;
+    font-weight: var(--font-light);
+    margin: 3px;
+    min-width: 125px;
+    text-align: center;
+}
+
+.link-menu a:hover {
+    text-decoration: none;
+    color: #E91E63;
+    box-shadow: 0px 0px 4px #E91E63;
+}
+
+.link-menu .recommended {
+    font-weight: var(--font-medium);
+    color: #E91E63;
+    background: white;
+}
+
+.menu-container {
+    scroll-margin-top: 6.5rem;
+}
+
+.menu-topic {
+    font-size: 30px;
+    font-weight: var(--font-regular);
+    text-align: center;
+    margin: 30px;
+    border-bottom: 1px solid #f4eee2;
+}
+
+.menu-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    margin: 20px;
+}
+
+.menu-img {
+    max-width: 190px;
+    max-height: 190px;
+    border: 2px solid #f2a7a9;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu-text{
+    margin: 10px 20px;
+}
+
+.menu-text h3{
+    font-size: 20px;
+    font-weight: var(--font-regular);
+    margin-bottom: 5px;
+}
+
+.menu-text p {
+    font-size: 15px;
+    font-weight: var(--font-light);
+}
+
+#Healthy-text h3{
+    font-size: 24px;
+    font-weight: var(--font-regular);
+    color: green;
+}
+
+#Healthy-text p {
+    font-size: 15px;
+    font-weight: var(--font-light);
+}
+
+#Healthy-text p a {
+    color: red;
+    text-decoration: none;
+}
+
+#Healthy-text p a:hover {
+    color: black;
+}
+
+@media (max-width: 992px){
+    .logo-brand {
+        width: 80px;
+        margin: 3px;
+    }
+
+    .menu-img {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .menu-text h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+    .container {
+        width: 470px !important;
+    }
+
+    #text-top {
+        font-size: 28px;
+    }
+}
