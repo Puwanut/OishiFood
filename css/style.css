@@ -26,6 +26,10 @@ body {
     -webkit-transition: opacity 1.5s; /* for Safari */
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #464646;
+}
+
 /* Header (navbar) */
 header {
     background-image: url("https://www.oishifood.com/img/tear_top.png");
@@ -69,7 +73,11 @@ ul.navbar-nav li a.nav-item.nav-link {
 /* End Header */
 
 .banner {
-    margin-top: 80px;
+    margin-top: 60px;
+}
+
+.banner img {
+    min-width: 100%;
 }
 
 /* Main Content */
@@ -113,10 +121,12 @@ ul.navbar-nav li a.nav-item.nav-link {
     font-size: 36px;
     font-weight: var(--font-medium);
     margin-bottom: 0px;
+    color: #333333;
 }
 .header-sign h2 {
     font-size: 24px;
     margin-bottom: 0px;
+    color: #333333;
 }
 
 .chopstick {
