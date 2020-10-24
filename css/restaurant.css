@@ -1,9 +1,80 @@
+:root{
+    --font-extra-light: 200;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+}
+
 #all-restaurant-item div{
     margin-bottom: 15px;
 }
 
 #chopstick-shrimp {
     top: 13%;
+}
+
+#dropdown-location {
+    margin-bottom: 40px;
+}
+
+.selectbox select{
+    background: url(https://www.oishifood.com/img/arrow-down.png) no-repeat #f2f2f2;
+    background-position: 98%;
+    -webkit-appearance: none; /* to remove default arrow down */
+    font-size: 16px;
+    color: #666;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 14px;
+    line-height: 1.42857143;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    border-radius: 0 !important;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+
+.selectbox select:focus {
+    border-color: #e5e5e5;
+}
+
+#dropdown-location h5{
+    font-size: 18px;
+    font-weight: var(--font-regular);
+}
+
+#dropdown-location span {
+    color: #f01c24;
+    font-weight: var(--font-medium);
+}
+
+#branch-name h4 {
+    font-size: 24px;
+    font-weight: var(--font-regular);
+    color: #464646
+}
+
+#branch-address h5,
+#branch-phone h5,
+#branch-time h5,
+#branch-navigation h5 {
+    font-size: 16px;
+    font-weight: var(--font-regular);
+    color: #666666;
+}
+
+#branch-address p,
+#branch-phone span,
+#branch-time span{
+    font-size: 14px;
+    font-weight: var(--font-light);
+    color: #666666;
+}
+
+#branch-navigation a {
+    text-decoration: none;
 }
 
 @media (max-width: 1499px) {
@@ -15,5 +86,20 @@
 @media (max-width: 1199px) {
     #chopstick-shrimp {
         width: 280px;
+    }
+}
+
+@media (max-width: 767px){
+    h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 991px){
+    #dropdown-location .col-lg-4 {
+        margin-bottom: 36px;
+    }
+    #branch-name h4 {
+        font-size: 20px;
     }
 }

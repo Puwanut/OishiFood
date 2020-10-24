@@ -76,20 +76,51 @@ function setDetails() {
         let province_value = parseInt(province_dropdown.value)-1;
         let branch_value = parseInt(branch_dropdown.value)-1;
         let branch_data = json_data[restaurant_number].provinces[province_value].branch[branch_value];
-        document.getElementById("showdetails").innerHTML = "<p>" + branch_data.name +  "</p>" +
-        "<p>" + branch_data.address +  "</p>" +
-        "<p>" + branch_data.phone +  "</p>" +
-        "<p>" + branch_data.time +  "</p>" +
-        "<a href='https://maps.google.com?saddr=Current+Location&daddr=" + branch_data.latitude + "," + branch_data.longtitude + "' target='_blank'>click to navigate</a>" +
-        "<p>" + branch_data.src +  "</p>" +
-        '<iframe src="' + branch_data.src + '" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
+
+        let branch_name = document.getElementById("branch-name");
+        let branch_address = document.getElementById("branch-address");
+        let branch_phone = document.getElementById("branch-phone");
+        let branch_time = document.getElementById("branch-time");
+        let branch_navigation = document.getElementById("branch-navigation");
+        let branch_map = document.getElementById("branch-map");
+
+        branch_name.innerHTML = '<h4 class="mb-0">\
+                                    <img src="https://www.oishifood.com/img/branch-icon-1.png" class="mr-2" alt="branch icon">'
+                                    + branch_data.name +
+                                '</h4>';
+
+        branch_address.innerHTML = '<h5 class="mb-0">\
+                                        <img src="https://www.oishifood.com/img/branch-icon-2.png" class="mr-2" alt="address icon">' +
+                                        'ที่อยู่ : ' +
+                                    '</h5>\
+                                    <p class="mb-0" style="margin-left: 44px">' + branch_data.address + '</p>';
+
+        branch_phone.innerHTML = '<h5 class="mb-0">\
+                                    <img src="https://www.oishifood.com/img/branch-icon-3.png" class="mr-2" alt="telephone icon">' +
+                                    'โทรศัพท์ : <span>' + branch_data.phone + '</span>\
+                                </h5>';
+
+        branch_time.innerHTML = '<h5 class="mb-0">\
+                                    <img src="https://www.oishifood.com/img/branch-icon-4.png" class="mr-2" alt="clock icon">' +
+                                    'เวลาทำการ : <span>' + branch_data.time + '</span>\
+                                </h5>';
+
+        branch_navigation.innerHTML = '<a href="https://maps.google.com?saddr=Current+Location&daddr="' + branch_data.latitude + ',' + branch_data.longtitude + '" target="_blank">\
+                                            <h5 class="mb-0">\
+                                                <img src="https://www.oishifood.com/img/branch-icon-5.png" class="mr-2" alt="navigation icon">' +
+                                                'ดูเส้นทางการเดินทาง' +
+                                            '</h5>\
+                                        </a>';
+
+        branch_map.innerHTML = '<iframe src="' + branch_data.src + '" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
+
     }
 }
 
 function setDefaultBranch(restaurant_number){
     switch (restaurant_number){
         case 0: province_dropdown.value = 1; break;
-        case 1: province_dropdown.value = 2; break;
+        case 1: province_dropdown.value = 1; break;
         case 2: province_dropdown.value = 4; break;
         case 3: province_dropdown.value = 4; break;
         case 4: province_dropdown.value = 1; break;
