@@ -9,7 +9,7 @@ request.open("GET", requestURL, true);
 request.send();
 
 function dataReportStatus(data) {
-    let main_container = document.getElementById("main-container");
+    let all_category = document.getElementById("all-category");
 
     for (let i = 0; i < data.length; i++) {
         let menu_container = document.createElement("div");
@@ -32,7 +32,7 @@ function dataReportStatus(data) {
         }
         inner += '</div>';
         menu_container.innerHTML = inner;
-        main_container.appendChild(menu_container);
+        all_category.appendChild(menu_container);
 
     }
 
