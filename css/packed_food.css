@@ -1,7 +1,30 @@
 .menu-option {
     padding-bottom: 15px;
 }
+.oishi-header{
+    text-align: center;
+}
+.oishi-header h1 {
+    font-weight: 600;
+}
+.title-business-form {
+    text-align: right;
+}
+.oishi-header h1 span {
+    color: #464646;
+    line-height: 1.5;
+}
+.tab{
+    animation: fadeIn ease 1.5s;
+}
 
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.oishi-header {
+    margin-bottom: 50px;
+}
 .menu-option-item {
     display: inline-block;
     min-width: 20%;
@@ -11,7 +34,15 @@
     border-bottom: 2px solid #ebebeb;
     transition: color .2s ease-out, border-bottom .2s ease-out;
 }
+.col-3{
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.entry:hover img{
+    transform: scale(1.05);
 
+}
 .tab-container{
     padding: 35px 0px 0px;
 }
@@ -31,6 +62,7 @@
 
 .entry img{
     margin: 0 0 10px;
+    transition: all .3s;
 }
 
 .entry p{
@@ -77,4 +109,11 @@ p{
 }
 .menu-option-item.active h1, .menu-option-item.active{
     top: -2px;
+}
+.col_half {
+    width: 48%;
+    margin: 0 30px 25px 0;
+}
+.title-business-form {
+    text-align: right;
 }
