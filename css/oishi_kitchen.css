@@ -13,6 +13,10 @@
     display: inline-block;
 }
 
+.logo-row a {
+    text-decoration: none;
+}
+
 .logo-brand {
     width: 120px;
     margin: 10px;
