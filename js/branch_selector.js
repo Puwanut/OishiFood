@@ -105,7 +105,7 @@ function setDetails() {
                                     'เวลาทำการ : <span>' + branch_data.time + '</span>\
                                 </h5>';
 
-        branch_navigation.innerHTML = '<a href="https://maps.google.com?saddr=Current+Location&daddr="' + branch_data.latitude + ',' + branch_data.longtitude + '" target="_blank">\
+        branch_navigation.innerHTML = '<a href="https://maps.google.com?saddr=Current+Location&daddr=' + branch_data.latitude + ',' + branch_data.longtitude + '" target="_blank">\
                                             <h5 class="mb-0">\
                                                 <img src="https://www.oishifood.com/img/branch-icon-5.png" class="mr-2" alt="navigation icon">' +
                                                 'ดูเส้นทางการเดินทาง' +
