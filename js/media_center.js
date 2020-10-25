@@ -18,11 +18,11 @@ let requestURL = 'media_center.json';
                 picture.insertAdjacentHTML("beforeend", 
                 "<img src='" + data[i].image + "' id='entry-picture'>");
                 meterial.insertAdjacentHTML("beforeend", 
-                "<b id='posthead'>" + data[i].header + "</b>");
+                "<h4 id='posthead'>" + data[i].header + "</h4>");
                 meterial.insertAdjacentHTML("beforeend", 
-                "<p class='font-regular' id='date'><img id='mini-calender' src='https://img.icons8.com/android/24/000000/calendar.png'/> " + data[i].date +"</p>");
+                "<p class='font-regular' id='date'><i class='fas fa-calendar mini_calendar'></i> " + data[i].date +"</p>");
                 meterial.insertAdjacentHTML("beforeend", 
-                "<div style='color : #666666;' class='font-light'>" + data[i].meterial_infront + "</div>");
+                "<div class='font-light' id='meterial_infront'>" + data[i].meterial_infront + "</div>");
                 meterial.insertAdjacentHTML("beforeend", 
                 "<button id='button_to_readmore'><span class='font-light' id='inside_button'>ดูเพิ่มเติม</span></button>");
             }
