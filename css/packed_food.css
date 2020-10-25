@@ -71,6 +71,10 @@
     text-align: center;
 }
 
+.entry:hover {
+    cursor: pointer;
+}
+
 p{
     margin-bottom: 30px;
 }
@@ -106,15 +110,24 @@ p{
 
 .menu-option-item.active {
     border-bottom: 2px solid red;
+}
+
+.menu-option-item.active .menu-text {
+    transform: translateY(1px);
+}
+
+.menu-option-item.active h1, .menu-option-item.active h2{
     color: red;
 }
-.menu-option-item.active h1, .menu-option-item.active{
-    top: -2px;
-}
+
 .col_half {
     width: 48%;
     margin: 0 30px 25px 0;
 }
 .title-business-form {
     text-align: right;
+}
+
+.modal-body {
+    padding: 10px 30px 30px 30px;
 }
