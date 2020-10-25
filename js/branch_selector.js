@@ -13,7 +13,7 @@ request.send();
 
 let province_dropdown = document.getElementById("province-dropdown");
 let branch_dropdown = document.getElementById("branch-dropdown");
-let restaurant_number = parseInt(province_dropdown.getAttribute("restaurant_number"));
+let restaurant_number = parseInt(document.getElementById("dropdown-location").getAttribute("restaurant_number"));
 let provinces_name_array = [];
 let all_branch_name_array = [];
 
