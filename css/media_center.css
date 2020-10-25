@@ -1,271 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap');
-
-*{
-    font-family: 'Kanit', sans-serif;
-}
-
-
-
-:root{
-    --font-extra-light: 200;
-    --font-light: 300;
-    --font-regular: 400;
-    --font-medium: 500;
-}
-
-.font-extra-light {font-weight: var(--font-extra-light);}
-.font-light {font-weight: var(--font-light);}
-.font-regular {font-weight: var(--font-regular);}
-.font-medium {font-weight: var(--font-medium);}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    opacity: 0;
-    transition: opacity 1.5s;
-    -webkit-transition: opacity 1.5s; /* for Safari */
-}
-
-/* Header */
-header {
-    background-image: url("https://www.oishifood.com/img/tear_top.png");
-    background-position: center bottom;
-    background-size: contain;
-    background-repeat: repeat-x;
-}
-
-header .navbar .container {
-    padding: 0 25px;
-}
-.navbar-brand {
-    margin-right: 40px;
-}
-
-ul.navbar-nav li a{
-    padding: 20px 15px 10px;
-}
-
-ul.navbar-nav li a div{
-    color: #333333;
-}
-
-.menu-line {
-    width: 100%;
-    top: 0;
-    display: inline-block;
-    vertical-align: top;
-    -webkit-border-image: -webkit-linear-gradient(left, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
-    border-image: linear-gradient(to right, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
-    border-style: solid;
-    border-width: 0 0 1px 0;
-}
-
-/* End Header */
-
-
-/* Banner Owl-Carousel */
-.banner {
-    margin-top: 80px;
-}
-
-.owl-prev, .owl-next {
-    width: 52px;
-    height: 52px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: block !important;
-    opacity: 0 !important;
-    transition: all 0.45s ease;
-}
-.owl-prev { left: 0px; }
-.owl-next { right: 0px; }
-
-.owl-next:hover, .owl-prev:hover {background: white}
-.owl-next:focus, .owl-prev:focus {outline: none;}
-
-.owl-carousel:hover .owl-nav .owl-prev {opacity: 1 !important;}
-.owl-carousel:hover .owl-nav .owl-next {opacity: 1 !important;}
-
-/* .owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: red;
-    color: #000;
-} */
-
-/* End Banner Owl-Carousel */
-
-
-/* Main Content */
-.main-content {
-    position: relative;
-}
-
-.img-tear-bottom {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    margin-top: -39px;
-    width: 100%;
-    height: 40px;
-    z-index: 3;
-    background-image: url('https://www.oishifood.com/img/tear_bottom.png');
-    background-position: center bottom;
-    background-size: contain;
-    background-repeat: repeat-x;
-}
-
-
-.img-bg {
-    /* height: 1000px; */
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}
-
-.header-sign {
-    background: url('https://www.oishifood.com/img/header-bg.png');
-    height: 112px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px 20px 20px 20px;
-}
-
-.owl-carousel#product-recommend .owl-nav .owl-prev { left: -30px; }
-.owl-carousel#product-recommend .owl-nav .owl-next { right: -30px; }
-
-.owl-carousel#product-recommend .owl-item img {
-    transition: all .3s;
-}
-.owl-carousel#product-recommend .owl-item:hover img {
-    transform: scale(1.05);
-}
-
-/* to remove slide down effect in Class fade */
-.modal.fade .modal-dialog{
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    -webkit-transition: none !important;
-    transition: none !important;
-
-    -moz-transform: none !important;
-    -ms-transform: none !important;
-    -o-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important;
-}
-
-.modal-header {
-    border: none;
-}
-
-.modal-header button.close {
-    width: 45px;
-    height: 40px;
-    padding: 0px;
-    opacity: 1 !important;
-    background-color: #dd343c;
-}
-
-.modal-header button.close:focus {
-    outline: none;
-}
-
-/* Main Content */
-
-/* Footer */
-
-footer {
-    font-size: 15px;
-    font-weight: var(--font-regular);
-}
-
-footer .container .row .col-md-3 a{
-    color: #464646;
-    transition: 0.2s ease-out;
-}
-
-footer .container .row .col-md-3 a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-footer .container .row .col-md-3 ul {
-    margin-bottom: 0px;
-    padding-left: 20px;
-    list-style-type: none;
-}
-
-footer .container .row .col-md-3 ul li a{
-    font-weight: var(--font-extra-light);
-    color: #666666;
-}
-
-
-#footer-contact-follow h1{
-    font-size: 15px;
-    font-weight: var(--font-regular);
-    color: #464646;
-}
-#footer-contact-follow h2{
-    font-size: 15px;
-    font-weight: var(--font-light);
-    color: #666666;
-}
-#footer-contact-follow p{
-    font-size: 15px;
-    font-weight: var(--font-extra-light);
-    color: #666666;
-}
-
-.footer-border {
-    border-top: solid 1px;
-    border-bottom: solid 1px;
-    padding: 30px 0;
-}
-
-.footer-border-right {
-    border-right: 1px solid rgba(0, 0, 0, 0.15);
-
-}
-
-/* Footer */
-
-/* gotoTop */
-#btn-gotoTop {
-    display: none;
-    z-index: 299;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0,0,0,0.3);
-    color: white;
-    text-align: center;
-    right: 30px;
-    bottom: 30px;
-    cursor: pointer;
-    border: none;
-    border-radius: 3px;
-    transition: background-color .2s;
-}
-
-#btn-gotoTop:hover {background-color: red;}
-#btn-gotoTop:focus {outline: none;}
-/* gotoTop */
-
 /*Media_center*/
 #oishi_media_header {
     font-size: 36px;
-    margin-bottom: 40px;}
+    margin-top: 14.2px;
+    margin-bottom: 54.2px;}
 #oishi_media_header_CENTER {color: #666666;}
-#mini-calender{
-    width : 13.03px;
-    height : 13.06px;
-    opacity: 0.5;}
+.mini_calendar{
+    opacity: 0.9;}
 #entry-picture{
     width: 200px;
     height: 150px;
@@ -275,21 +15,15 @@ footer .container .row .col-md-3 ul li a{
     font-size : 17px;
 }
 #date{
+    font-family: 'Crete Round', serif;
     color : #999999; 
     font-size : 13px;
 }
-#button_to_readmore{
-    margin-top: 20px;
-    margin-left : 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color : #f01c24;
-    width : 89.61px;
-    height : 34px;
-    border : none;
-    transition: 0.1s;
+#meterial_infront{
+    color : #666666;
+    font-size: 15px;
 }
-#button_to_readmore2{
+#button_to_readmore{
     margin-top: 20px;
     margin-left : 5px;
     margin-right: 5px;
@@ -307,4 +41,14 @@ footer .container .row .col-md-3 ul li a{
 #picture9{
     margin-bottom: 85px;
 }
+#meterial0{margin-left : 30px;}
+#meterial1{margin-left : 30px;}
+#meterial2{margin-left : 30px;}
+#meterial3{margin-left : 30px;}
+#meterial4{margin-left : 30px;}
+#meterial5{margin-left : 30px;}
+#meterial6{margin-left : 30px;}
+#meterial7{margin-left : 30px;}
+#meterial8{margin-left : 30px;}
+#meterial9{margin-left : 30px;}
 /*Media_center*/
