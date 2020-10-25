@@ -111,7 +111,9 @@ p{
 .menu-option-item.active {
     border-bottom: 2px solid red;
 }
-
+.center{
+    text-align: center;
+}
 .menu-option-item.active .menu-text {
     transform: translateY(1px);
 }
@@ -126,6 +128,13 @@ p{
 }
 .title-business-form {
     text-align: right;
+}
+.col_last {
+    margin-right: 0 !important;
+    clear: right;
+}
+#txtName{
+    
 }
 
 .modal-body {
