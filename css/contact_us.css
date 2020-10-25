@@ -1,0 +1,30 @@
+/*contact_us*/
+#contact_mainbox{
+    margin-top: 43.2px;
+}
+#contact_all_subhead{
+    font-size: 36px;
+}
+#contact_company_name{
+    font-size : 21px;
+}
+#contact_company_info{
+    font-size : 16px;
+}
+#contact_company_box{
+    margin-bottom: 12px;
+}
+#small_text_box{
+    width : 351.21px;
+    height : 40.8px;
+}
+#big_text_box{
+    width : 351.21px;
+    height : 103.2px;
+}
+#contact_input_topic{
+    float : right;
+    font-size : 13px;
+    color : #555555;
+}
+/*contact_us*/
