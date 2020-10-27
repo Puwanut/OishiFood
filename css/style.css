@@ -397,3 +397,7 @@ footer .container .row .col-md-3 ul li a{
 #btn-gotoTop:hover {background-color: red;}
 #btn-gotoTop:focus {outline: none;}
 /* gotoTop */
+
+.heightpay li{
+    margin-left: -18px;
+}
