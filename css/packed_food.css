@@ -173,8 +173,7 @@ p{
     padding-right: 15px;
 }
 .container_form {
-    margin-right: 252px;
-    margin-left: 252px;
+    margin: 0 auto;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -188,6 +187,10 @@ p{
 }
 .col_form{
     text-align: right;
+    margin-right: 3%;
+    display: block;
+    position: relative;
+    padding: 0;
 }
 button {
     appearance: button;
