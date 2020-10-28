@@ -28,15 +28,63 @@
     margin-left : 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+    display: inline-block;
     background-color : #f01c24;
     width : 89.61px;
     height : 34px;
+    padding-top: 0px;
     border : none;
-    transition: 0.1s;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+#button_to_readmore i{
+    display: inline-block;
+    width: 29.61px;
+    height: 34px;
+    color : white;
+    text-align: center;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: all .3s ease-in-out;
 }
 #inside_button{
+    display: inline-block;
+    width : 89.61px;
+    margin-left: 23px;
+    height : 34px;
+    padding-top: 0px;
     font-size : 12px;
     color : #ffffff;
+    transition: all .3s ease-in-out;
+}
+#button_to_readmore:hover #inside_button{
+    background-color: #d41a20;
+    width : 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#button_to_readmore:hover{
+    background-color: #d41a20;
+}
+.modal-content{
+    width: 53%;
+    margin-right: 23.5%;
+    margin-left: 23.5%;
+}
+.modal-body{
+    padding: 10px 50px 50px 50px;
+}
+#full_image{
+    width: 100%;
+}
+#full_topic{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#f_meterial{
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 #picture9{
     margin-bottom: 85px;
