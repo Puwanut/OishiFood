@@ -14,7 +14,7 @@ let requestURL = 'media_center.json';
             for(i; i < data.length; i++){
                 var picture = document.getElementById("picture" + i);
                 var meterial = document.getElementById("meterial" + i);
-                var body = data[i].meterial1;
+                var fullMeterial = document.getElementById("full_meterial" + i);
                 picture.insertAdjacentHTML("beforeend", 
                 "<img src='" + data[i].image + "' id='entry-picture'>");
                 meterial.insertAdjacentHTML("beforeend", 
@@ -24,7 +24,18 @@ let requestURL = 'media_center.json';
                 meterial.insertAdjacentHTML("beforeend", 
                 "<div class='font-light' id='meterial_infront'>" + data[i].meterial_infront + "</div>");
                 meterial.insertAdjacentHTML("beforeend", 
-                "<button id='button_to_readmore'><span class='font-light' id='inside_button'>ดูเพิ่มเติม</span></button>");
+                "<a href='#full_meterial" + i +"' data-toggle='modal' data-target='#full_meterial" + i + "' id='button_to_readmore'><span id='inside_button' class='font-light'>ดูเพิ่มเติม</span><i class='fa fa-angle-right' aria-hidden='true'></i></a>");
+                fullMeterial.insertAdjacentHTML("beforeend", 
+                " <div class='modal-content'>"
+                + "<div class='modal-header'>"
+                + "<button type='button' class='close' data-dismiss='modal'><img src='https://www.oishifood.com/img/x-close.png'></button>"
+                + "</div>"
+                + "<div class='modal-body'>"
+                + "<img src='" + data[i].image + "' id='full_image'>"
+                + "<h1 id='full_topic' class='font-regular'>" + data[i].header + "</h1>"
+                + "<p id='f_meterial' class='font-light'>" + data[i].meterial1 + "<br><br>" + data[i].meterial2 + "<p>");
+                fullMeterial.insertAdjacentHTML("beforeend", "</div>");
+                fullMeterial.insertAdjacentHTML("beforeend", " </div>");
             }
             for(i = 0; i < underline.length; i++){
                 underline[i].style.marginTop = "40px";
