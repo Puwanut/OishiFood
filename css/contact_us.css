@@ -27,4 +27,31 @@
     font-size : 13px;
     color : #555555;
 }
+#file_input_box{
+    font-size: 15px;
+    background-color: #eceaea;
+    color : #666666;
+    width : 351.21px;
+    height : 40.8px;
+}
+#file_input{
+    height: 25px;
+}
+#contact_underline{
+    padding: 0 15px;
+    width : 351.21px;
+    border:  solid 0.5px;
+    opacity: 0.05;
+}
+#full_report{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+#full_report_box:hover{
+    text-decoration: none;
+}
+#full_report:hover {
+    color: red;
+}
 /*contact_us*/
