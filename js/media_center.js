@@ -24,7 +24,7 @@ let requestURL = 'media_center.json';
                 meterial.insertAdjacentHTML("beforeend", 
                 "<div class='font-light' id='meterial_infront'>" + data[i].meterial_infront + "</div>");
                 meterial.insertAdjacentHTML("beforeend", 
-                "<a href='#full_meterial" + i +"' data-toggle='modal' data-target='#full_meterial" + i + "' id='button_to_readmore'><span id='inside_button' class='font-light'>ดูเพิ่มเติม</span><i class='fa fa-angle-right' aria-hidden='true'></i></a>");
+                "<a href='#full_meterial" + i +"' data-toggle='modal' data-target='#full_meterial" + i + "' class='btn-seemore'><i class='fas fa-angle-right' aria-hidden='true' style='font-weight: 501;'></i><span style='font-size: 12px;'>ดูเพิ่มเติม</span></a>");
                 fullMeterial.insertAdjacentHTML("beforeend", 
                 " <div class='modal-content'>"
                 + "<div class='modal-header'>"
