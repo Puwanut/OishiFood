@@ -10,6 +10,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" type="text/css">
@@ -36,87 +37,72 @@
 
 <body onload="document.body.style.opacity='1'" onbeforeunload="document.body.style.opacity='0'">
 
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <header>
+        <nav class="topnav" id="myTopnav">
             <div class="container">
-                <a href="index.html" class="navbar-brand p-0">
-                    <img src="https://www.oishifood.com/img/logo.png?v=2" alt="oishi logo" class="img-fluid">
+                <a href="index.html" id="brand-img">
+                    <img src="https://www.oishifood.com/img/logo.png?v=2">
                 </a>
-                <button id="navButton" type="button" class="navbar-toggler" data-toggle="collapse"
-                    data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="btn-bars-icon" onclick="toggle_menu()">
+                    <i class="fas fa-bars"></i>
                 </button>
-
-                <div class="collapse navbar-collapse" style="font-size: 14px; letter-spacing: 1px;" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li>
-                            <a href="index.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    HOME PAGE
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="restaurant.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    RESTAURANT
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="delivery.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    DELIVERY
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="packed_food.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    PACKED FOOD
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="promotion.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    PROMOTION
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="media_center.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    MEDIA CENTER
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact_us.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    CONTACT US
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="navbar-nav mb-2">
-                        <a href="https://www.facebook.com/oishifoodstation" target="_blank" class="social-icon si-small" id="facebook-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon si-small" id="language-button">
-                            EN
-                        </a>
-                    </div>
+                <div class="nav-icon">
+                    <a href="https://www.facebook.com/oishifoodstation" target="_blank" class="social-icon si-small"
+                        id="facebook-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon si-small" id="language-button">
+                        EN
+                    </a>
                 </div>
+                <ul id="navbar-items">
+                    <li>
+                        <a href="index.html">
+                            <span class="menu-line">OISHI</span>
+                            HOME PAGE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="restaurant.html">
+                            <span class="menu-line">OISHI</span>
+                            RESTAURANT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">
+                            <span class="menu-line">OISHI</span>
+                            DELIVERY
+                        </a>
+                    </li>
+                    <li>
+                        <a href="packed_food.html">
+                            <span class="menu-line">OISHI</span>
+                            PACKED FOOD
+                        </a>
+                    </li>
+                    <li>
+                        <a href="promotion.html">
+                            <span class="menu-line">OISHI</span>
+                            PROMOTION
+                        </a>
+                    </li>
+                    <li>
+                        <a href="media_center.html">
+                            <span class="menu-line">OISHI</span>
+                            MEDIA CENTER
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html">
+                            <span class="menu-line">OISHI</span>
+                            CONTACT US
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
+
+
     </header>
 
 
@@ -612,10 +598,16 @@
     <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
     <script src="js/customOwlcarousel.js" type="text/javascript"></script>
     <script src="js/gototop.js" type="text/javascript"></script>
+    <script src="js/navbar.js"></script>
     <script type="text/javascript">
+        let homepage_banner = document.getElementById("homepage-banner");
         window.onscroll = function () {
-            document.getElementById("homepage-banner").style.top = (window.scrollY/2) + "px";
-        }
+            if (!window_size.matches)
+                homepage_banner.style.transform = "translateY(" + (window.scrollY / 2) + "px)";
+            else
+                homepage_banner.style.transform = "none";
+        };
+        //P.S. var window_size written in navbar.js
     </script>
 
 </body>
