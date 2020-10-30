@@ -16,6 +16,10 @@
 .font-regular {font-weight: var(--font-regular);}
 .font-medium {font-weight: var(--font-medium);}
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,7 +28,6 @@ body {
     opacity: 0;
     transition: opacity 1.5s;
     -webkit-transition: opacity 1.5s; /* for Safari */
-    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
