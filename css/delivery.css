@@ -1,3 +1,7 @@
+.oishi-header h1 {
+    font-size: 36px;
+}
+
 #boxmenu{
     text-decoration: none;
     width: 170px;
@@ -8,17 +12,18 @@
     background: red;
     color: white;
     text-align: center;
-    font-size: 16px; 
+    font-size: 16px;
 }
+
 .col_1{
     width: 100%;
-    margin-top: 20px;
+    margin: auto 0;
 }
 .col_2{
     text-align: left;
     border-left: 1px solid #f3b1b2;
     width: 100%;
-    padding-left: 5%;
+    padding-left: 4%;
 }
 .tbrow{
     flex-direction: row;
@@ -38,3 +43,21 @@
     margin:10px;
     border-radius: 6px;
 }
+
+@media (max-width: 768px){
+    .tbrow {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .oishi-header h1 {
+        font-size: 28px;
+    }
+
+    .col_2 {
+        border: none;
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
