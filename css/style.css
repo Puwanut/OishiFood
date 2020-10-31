@@ -494,6 +494,10 @@ footer .container .row .col-md-3 ul li a{
     transition: background-color .2s;
 }
 
+#btn-gotoTop i {
+    font-size: 20px;
+}
+
 #btn-gotoTop:hover {background-color: red;}
 #btn-gotoTop:focus {outline: none;}
 /* gotoTop */

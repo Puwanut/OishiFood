@@ -1,4 +1,4 @@
-let requestURL = 'oishi_kitchen_sample.json';
+let requestURL = 'json/oishi_kitchen_foodmenu.json';
 let request = new XMLHttpRequest();
 request.onreadystatechange = function () {
     if (request.readyState == 4 && request.status == 200) {
