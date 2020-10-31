@@ -129,46 +129,47 @@ header .container {
         display: none;
     }
 
-    .topnav.responsive {
+    .topnav.show {
         position: relative;
         padding-bottom: 30px;
     }
 
-    .topnav.responsive ul {
+    .topnav.show ul {
         float: none;
         text-align: left;
     }
 
-    .topnav.responsive ul li {
+    .topnav.show ul li {
         float: none;
         display: block;
         text-align: left;
         border-top: 1px solid #EEE;
     }
 
-    .topnav.responsive ul li:first-child {
+    .topnav.show ul li:first-child {
         border: none;
     }
 
-    .topnav.responsive ul li a{
+    .topnav.show ul li a{
         font-size: 14px;
         letter-spacing: 1px;
     }
 
 }
 
-
-
-.menu-line {
-    width: 100%;
-    top: 0;
-    display: block;
-    vertical-align: top;
-    -webkit-border-image: -webkit-linear-gradient(left, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
-    border-image: linear-gradient(to right, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
-    border-style: solid;
-    border-width: 0 0 1px 0;
+@media (min-width: 993px) {
+    .menu-line-lg {
+        width: 100%;
+        top: 0;
+        display: block;
+        /* vertical-align: top; */
+        -webkit-border-image: -webkit-linear-gradient(left, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
+        border-image: linear-gradient(to right, #f5f5f5 0%, #999 50%, #f5f5f5 100%) 1 stretch;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+    }
 }
+
 
 /* End Header */
 
