@@ -10,6 +10,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/promotion.css">
+    <script src="js/promotion.js"></script>
 
     <!-- for icon (arrow up) in font awesome -->
     <!-- <link href="fontawesome-free-5.15.1-web\css\all.css" rel="stylesheet"> -->
@@ -119,7 +120,7 @@
                         </div>
                         <div class="col-md-4 col_last selectbox" >
                             <div class="promotion-search">
-                                <select style=" background-position-x: 98%;background: url(https://oishifood.com/img/arrow-down.png) no-repeat right #f2f2f2;overflow: visible !important;overflow: -moz-hidden-unscrollable;" id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="promo()">
+                                <select style=" background-position-x: 98%;background: url(https://oishifood.com/img/arrow-down.png) no-repeat right #f2f2f2;overflow: visible !important;overflow: -moz-hidden-unscrollable;" id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="timeFunction()">
                                     <option value="">-- เลือกทั้งหมด --</option>
                                 <option value="1">Oishi Restaurant</option><option value="2">Oishi Packed Food</option><option value="3">Oishi Delivery</option>                            </select>
                             </div>
@@ -157,11 +158,11 @@
                                 <div class="entry-date">
                                     <p> 1 ตุลาคม 2563 - 30 พฤศจิกายน 2563</p>
                                 </div>
-                                <div class="oishi-button cc_cursor" data-toggle="modal" data-target="#modalpromo2">
+                                <div class="oishi-button cc_cursor" data-toggle="modal" data-target="#modalpromo2"> 
                                     <a href="#modalpromo2" class="btn-seemore">
                                         <i class="fas fa-angle-right cc_pointer" aria-hidden="true"></i>
                                         <span>รายละเอียด</span>
-                                    </a>
+                                    </a>                                
                                 </div>
                             </div>
                         </div>
@@ -209,7 +210,7 @@
         </div>
     </div>
     <br><br>
-
+    
 
     <footer>
         <div class="container pt-4 pl-3 pr-3 footer-border">
@@ -292,7 +293,6 @@
     </button>
 
     <script src="js/gototop.js" type="text/javascript"></script>
-    <script src="js/promotion.js"></script>
 
 </body>
 

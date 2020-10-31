@@ -91,23 +91,18 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 .FadeIn{
-    animation: animated ease .3s;
+    animation: animated ease 1.5s;
 }
 @keyframes animated{
     0% {transform: scale(0);}
     100% {transform: scale(1);}
 }
-
 .FadeOut{
-    animation: fadeOut ease .3s;
+    animation: fadeOut ease 1.5s;
 }
 @keyframes fadeOut{
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(0);
-    }
+    0% {transform: scale(1);}
+    100% {transform: scale(0);}
 }
 .selectbox select{
     background: url(https://www.oishifood.com/img/arrow-down.png) no-repeat #f2f2f2;
