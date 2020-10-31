@@ -471,10 +471,9 @@ footer .container .row .col-md-3 ul li a{
 #youtube-icon:hover{background-color: #ff0000;}
 #twitter-icon:hover{background-color: #1DA1F2;}
 
-
-.fa-facebook-f:before {
+/* .fa-facebook-f:before {
     content: "\f39e" !important;
-}
+} */
 /* Footer */
 
 /* gotoTop */
