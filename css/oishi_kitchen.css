@@ -5,10 +5,6 @@
     --font-medium: 500;
 }
 
-html {
-    scroll-behavior: unset;
-}
-
 #text-top {
     font-size: 36px;
 }
