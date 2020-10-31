@@ -33,87 +33,72 @@
 
 <body onload="document.body.style.opacity='1'" onbeforeunload="document.body.style.opacity='0'">
 
-    <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light p-0">
+    <header>
+        <nav class="topnav" id="myTopnav">
             <div class="container">
-                <a href="index.html" class="navbar-brand p-0">
-                    <img src="https://www.oishifood.com/img/logo.png?v=2" alt="oishi logo" class="img-fluid">
+                <a href="index.html" id="brand-img">
+                    <img src="https://www.oishifood.com/img/logo.png?v=2">
                 </a>
-                <button id="navButton" type="button" class="navbar-toggler" data-toggle="collapse"
-                    data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
+                <button id="btn-bars-icon" onclick="toggle_menu()">
+                    <i class="fa fa-bars"></i>
                 </button>
-
-                <div class="collapse navbar-collapse" style="font-size: 14px; letter-spacing: 1px;" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li>
-                            <a href="index.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    HOME PAGE
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="restaurant.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    RESTAURANT
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="delivery.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    DELIVERY
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="packed_food.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    PACKED FOOD
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="promotion.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    PROMOTION
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="media_center.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    MEDIA CENTER
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact_us.html" class="nav-item nav-link">
-                                <div class="text-center">
-                                    <span class="menu-line">OISHI</span><br>
-                                    CONTACT US
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="navbar-nav mb-2">
-                        <a href="https://www.facebook.com/oishifoodstation" target="_blank" class="social-icon si-small" id="facebook-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="social-icon si-small" id="language-button">
-                            EN
-                        </a>
-                    </div>
+                <div class="nav-icon">
+                    <a href="https://www.facebook.com/oishifoodstation" target="_blank" class="social-icon si-small"
+                        id="facebook-icon">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon si-small" id="language-button">
+                        EN
+                    </a>
                 </div>
+                <ul id="navbar-items">
+                    <li>
+                        <a href="index.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            HOME PAGE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="restaurant.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            RESTAURANT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            DELIVERY
+                        </a>
+                    </li>
+                    <li>
+                        <a href="packed_food.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            PACKED FOOD
+                        </a>
+                    </li>
+                    <li>
+                        <a href="promotion.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            PROMOTION
+                        </a>
+                    </li>
+                    <li>
+                        <a href="media_center.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            MEDIA CENTER
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html">
+                            <span class="menu-line-lg">OISHI</span>
+                            CONTACT US
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
+
+
     </header>
 
     <div class="banner">
@@ -122,7 +107,7 @@
 
     <div class="main-content">
         <div class="img-tear-bottom"></div>
-        <div class="img-bg" style="background-image: url('https://www.oishifood.com/img/bg_restaurant_main.jpg');">
+        <div class="img-bg" style="background-image: url('https://oishifood.com/img/bg_promotion.jpg');">
             <div class="container" style="padding-top: 40px">
 
                     <!-- Coding here -->
@@ -133,9 +118,9 @@
                                 <h1>OISHI <span class="font-extra-light">PROMOTION</span></h1>
                             </div>
                         </div>
-                        <div class="col-md-4 col_last">
+                        <div class="col-md-4 col_last selectbox" >
                             <div class="promotion-search">
-                                <select style=" background-position-x: 98%;background: url(https://oishifood.com/img/arrow-down.png) no-repeat right #f2f2f2;overflow: visible !important;overflow: -moz-hidden-unscrollable;" id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="promo()">
+                                <select style=" background-position-x: 98%;background: url(https://oishifood.com/img/arrow-down.png) no-repeat right #f2f2f2;overflow: visible !important;overflow: -moz-hidden-unscrollable;" id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="timeFunction()">
                                     <option value="">-- เลือกทั้งหมด --</option>
                                 <option value="1">Oishi Restaurant</option><option value="2">Oishi Packed Food</option><option value="3">Oishi Delivery</option>                            </select>
                             </div>
@@ -146,12 +131,12 @@
                     <div class="container clearfix">
                         <!-- Posts============================================= -->
                         <div class="row">
-                            <div class="col-4 promotion-block clearfix animate" id="block1" style="display: block;">
+                            <div class="col-4 promotion-block clearfix FadeIn" id="block1" style="display: block;">
                                 <div class="entry-image " data-toggle="modal" data-target="#modalpromo1">
                                     <a href="#myModal147" data-lightbox="inline"><img class="image_fade img-fluid" src="https://oishifood.com/upload_file/promotion/201026074957_02-800x800px-Duoset.jpg" alt="คาคาชิ เซทโตะ" title="คาคาชิ เซทโตะ" style="opacity: 1;"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h2>คาคาชิ เซทโตะ</h2>
+                                    <h2 class="font-light">คาคาชิ เซทโตะ</h2>
                                 </div>
                                 <div class="entry-date">
                                     <p>12 ตุลาคม 2563 - 30 พฤศจิกายน 2563</p>
@@ -163,12 +148,12 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-4 promotion-block clearfix animate" id="block2" style="display: block;">
+                            <div class="col-4 promotion-block clearfix FadeIn" id="block2" style="display: block;">
                                 <div class="entry-image" data-toggle="modal" data-target="#modalpromo2">
                                     <a href="#modalpromo2" data-lightbox="inline"></a><img class="image_fade img-fluid" src="https://www.oishifood.com/upload_file/promotion/200930111728_Rm_NPD%20800x800px.jpg" alt="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" title="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" style="opacity: 1;"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h2>ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน</h2>
+                                    <h2 class="font-light">ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน</h2>
                                 </div>
                                 <div class="entry-date">
                                     <p> 1 ตุลาคม 2563 - 30 พฤศจิกายน 2563</p>
@@ -224,6 +209,7 @@
             </div>
         </div>
     </div>
+    <br><br>
     
 
     <footer>

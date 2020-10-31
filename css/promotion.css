@@ -10,33 +10,9 @@
     color: #666666;
     font-size: 36px;
 }
-.branch-form-control{
-    float: right;
-    font-family: 'Kanit-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #666;
-    display: block;
-    width: 100%;
-    height: 50px;
-    padding: 0 14px;
-    line-height: 1.42857143;
-    background-color: #f2f2f2;
-    background-image: none;
-    border: 1px solid #f2f2f2;
-    border-radius: 0 !important;
-    -webkit-transition: border-color ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s;
-    transition: border-color ease-in-out .15s;
-}
+
 .col_last{
     float: right;
-}
-.branch-form-control option{
-    font-family: 'Kanit-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #666;
 }
 
 
@@ -100,10 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 10px;
 }
 .promotion-block .entry-title h2 {
-    font-family: 'Kanit-Light', sans-serif;
     height: 45px;
 	font-size: 18px;
-	font-weight: normal;
 	color: #464646;
 	letter-spacing: 0;
 }
@@ -111,18 +85,44 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 15px;
 }
 .promotion-block .entry-date p {
-    font-family: 'Kanit-Light', sans-serif;
     height: 45px;
 	color: #f01c24;
 	font-size: 14px;
 	margin: 0;
 }
-.animate{
+.FadeIn{
     animation: animated ease 1.5s;
 }
 @keyframes animated{
-    0% {width:0%;
-        height:0%;}
-    100% {width:100%;
-        height:100%;}
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+.FadeOut{
+    animation: fadeOut ease 1.5s;
+}
+@keyframes fadeOut{
+    0% {transform: scale(1);}
+    100% {transform: scale(0);}
+}
+.selectbox select{
+    background: url(https://www.oishifood.com/img/arrow-down.png) no-repeat #f2f2f2;
+    background-position: 98%;
+    -webkit-appearance: none; /* to remove default arrow down */
+    font-size: 16px;
+    color: #666;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 14px;
+    line-height: 1.42857143;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    border-radius: 0 !important;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+
+.selectbox select:focus {
+    border-color: #e5e5e5;
 }
