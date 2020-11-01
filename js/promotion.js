@@ -12,7 +12,7 @@ switch (ref) {
 promo();
 
 function promo(){
-    topic = topic.value;
+    topic = document.getElementById('template-contactform-service').value;
     if (topic <= 1){
         show.classList.remove("FadeOut");
         show2.classList.remove("FadeOut");
