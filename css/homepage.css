@@ -83,7 +83,7 @@
 #owl-oishi-restaurant .owl-dots{
     position: absolute;
     right: 0;
-    top: -65px;
+    top: -45px;
 }
 
 #owl-oishi-restaurant .owl-dots .owl-dot span{
@@ -100,4 +100,35 @@
 
 #owl-oishi-restaurant .owl-dots span {
     background-color: #f19497;
+}
+
+#section-whatsNew {
+    position: relative;
+}
+
+@media (max-width: 991px) {
+    .chopstick {
+        width: 300px;
+        top: 22%;
+    }
+}
+
+@media (max-width: 767px) {
+    .chopstick {
+        width: 200px;
+        top: 26%;
+    }
+}
+
+@media (max-width: 479px) {
+    .chopstick {
+        width: 120px;
+        top: 30%;
+    }
+
+    #owl-oishi-restaurant .owl-dots{
+        left: 0;
+        right: auto;
+    }
+
 }
