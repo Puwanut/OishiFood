@@ -215,3 +215,7 @@ button {
     color: #FFF;
     text-shadow: none;
 }
+
+#business-partners {
+    scroll-margin-top: 4rem;
+}

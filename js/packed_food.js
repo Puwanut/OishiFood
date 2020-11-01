@@ -1,3 +1,13 @@
+const params = new URLSearchParams(document.location.search);
+let ref = params.get("ref");
+switch (ref) {
+    case "tab-1": show_packedfood(0); break;
+    case "tab-2": show_packedfood(1); break;
+    case "tab-3": show_packedfood(2); break;
+    case "tab-4": show_packedfood(3); break;
+    case "tab-5": show_packedfood(4); break;
+}
+
 let tab = document.getElementsByClassName('tab');
 
 function show_packedfood(value){

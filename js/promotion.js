@@ -1,8 +1,18 @@
+const params = new URLSearchParams(document.location.search);
+let ref = params.get("ref");
+let topic = document.getElementById('template-contactform-service');
 let show = document.getElementById('block1');
 let show2 = document.getElementById('block2');
 
+switch (ref) {
+    case "restaurant": topic.value = 1; break;
+    case "packed-food": topic.value = 2; break;
+    case "delivery": topic.value = 3; break;
+}
+promo();
+
 function promo(){
-    let topic = document.getElementById('template-contactform-service').value;
+    topic = topic.value;
     if (topic <= 1){
         show.classList.remove("FadeOut");
         show2.classList.remove("FadeOut");
