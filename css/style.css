@@ -36,11 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     max-width: 1170px;
+    padding: 0 25px;
 }
 
 /* Header (navbar) */
 header .container {
-    padding: 0 25px;
     min-height: 100px;
 }
 
