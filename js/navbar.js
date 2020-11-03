@@ -10,7 +10,10 @@ function toggle_menu() {
         banner.style.marginTop = "-30px";
     } else {
         navbar.className = "topnav";
-        banner.style.marginTop = "80px";
+        if (banner.id == "homepage-banner")
+            banner.style.marginTop = "80px";
+        else
+            banner.style.marginTop = "60px";
     }
 }
 
@@ -18,6 +21,11 @@ function change_banner_margintop(window_size){
     if (window_size.matches && navbar.className === "topnav show") {
         banner.style.marginTop = "-30px";
     }
-    else
+    else {
         banner.style.marginTop = "80px";
+        if (banner.id == "homepage-banner")
+            banner.style.marginTop = "80px";
+        else
+            banner.style.marginTop = "60px";
+    }
 }
