@@ -6,52 +6,52 @@
       {
         "name": "ข้าวหน้าล้นเนื้อสไปซี่ไข่ออนเซน",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Spicy Don with Onsen Tamago (Beef) XL.jpg"
+        "img": "/img/delivery/Spicy Don with Onsen Tamago (Beef) XL.jpg"
       },
       {
         "name": "ทงคัตสึ ชาชู ราเมน",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkotsu%20Chashu%20Ramen.jpg"
+        "img": "/img/delivery/Tonkotsu%20Chashu%20Ramen.jpg"
       },
       {
         "name": "สลัดแซลมอนตาตากิ เสิร์ฟคู่น้ำสลัดงาใสยูซุ",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Tataki%20Salad%20with%20Yuzu%20Soy%20Dressing.jpg"
+        "img": "/img/delivery/Salmon%20Tataki%20Salad%20with%20Yuzu%20Soy%20Dressing.jpg"
       },
       {
         "name": "ข้าวหน้ากุ้งผัดพริกเกลือ",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Stir%20Fried%20Shrimp%20with%20chilli.jpg"
+        "img": "/img/delivery/Stir%20Fried%20Shrimp%20with%20chilli.jpg"
       },
       {
         "name": "ราเมนหอยลายผัดพริกเผา",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Asari%20Ramen.jpg"
+        "img": "/img/delivery/Asari%20Ramen.jpg"
       },
       {
         "name": "แซลมอน เบนโตะ เซท",
         "price": "ราคา 249 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Bento%20Set.jpg"
+        "img": "/img/delivery/Salmon%20Bento%20Set.jpg"
       },
       {
         "name": "ข้าวกล้องญี่ปุ่นผสมควินัวผัดกระเทียม เสิร์ฟพร้อมแซลมอนย่างเกลือหิมาลายัน",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Garlic%20Brown%20Rice%20with%20Himalayan%20Sea%20Salt%20Grilled%20Salmon.jpg"
+        "img": "/img/delivery/Garlic%20Brown%20Rice%20with%20Himalayan%20Sea%20Salt%20Grilled%20Salmon.jpg"
       },
       {
         "name": "เทปันยากิ เนื้อวัว เบนโตะ",
         "price": "ราคา 199 บาท",
-        "img": "https://oishifood.com/delivery/img/Beef%20Teppanyaki%20Bento.jpg"
+        "img": "/img/delivery/Beef%20Teppanyaki%20Bento.jpg"
       },
       {
         "name": "ยากิเกี๊ยวซ่าชีส",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Yaki%20Gyoza%20Cheese.jpg"
+        "img": "/img/delivery/Yaki%20Gyoza%20Cheese.jpg"
       },
       {
         "name": "แซลมอนวาซาบิแซ่บ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Wasabi%20Zaab.jpg"
+        "img": "/img/delivery/Salmon%20Wasabi%20Zaab.jpg"
       }
     ]
   },
@@ -62,32 +62,32 @@
       {
         "name": "สลัดแซลมอนย่าง เสิร์ฟคู่น้ำสลัดงาใสยูซุ",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Grilled%20Salmon%20Salad%20with%20Yuzu%20Soy%20Dressing.jpg"
+        "img": "/img/delivery/Grilled%20Salmon%20Salad%20with%20Yuzu%20Soy%20Dressing.jpg"
       },
       {
         "name": "สลัดแซลมอนย่าง เสิร์ฟคู่น้ำสลัดงาใสวาซาบิ",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Tataki%20Salad%20with%20Wasabi%20Soy%20Dressing.jpg"
+        "img": "/img/delivery/Salmon%20Tataki%20Salad%20with%20Wasabi%20Soy%20Dressing.jpg"
       },
       {
         "name": "สปาเกตตี้เส้นผักโขมผัดคลุกเคล้าคลินัวและเมนไตโกะ เสิร์ฟพร้อมแซลมอนย่าง",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Mentaiko%20Spinach%20Spaghetti%20with%20Grilled%20Salmon.jpg"
+        "img": "/img/delivery/Mentaiko%20Spinach%20Spaghetti%20with%20Grilled%20Salmon.jpg"
       },
       {
         "name": "สปาเกตตี้ผัดพริกแห้งคลุกเคล้าคลินัวและเมนไตโกะ เสิร์ฟพร้อมแซลมอนย่าง",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Mentaiko%20Chilli%20Spaghetti%20with%20Grilled%20Salmon.jpg"
+        "img": "/img/delivery/Mentaiko%20Chilli%20Spaghetti%20with%20Grilled%20Salmon.jpg"
       },
       {
         "name": "ข้าวกล้องญี่ปุ่นผสมควินัวผัดกระเทียม เสิร์ฟพร้อมแซลมอนย่างเกลือหิมาลายัน",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Garlic%20Brown%20Rice%20with%20Himalayan%20Sea%20Salt%20Grilled%20Salmon.jpg"
+        "img": "/img/delivery/Garlic%20Brown%20Rice%20with%20Himalayan%20Sea%20Salt%20Grilled%20Salmon.jpg"
       },
       {
         "name": "ข้าวญี่ปุ่นผสมข้าวบาร์เล่ย์ เสิร์ฟพร้อมแซลมอนย่างราดซอสมิโซะ",
         "price": "ราคา 239 บาท",
-        "img": "https://oishifood.com/delivery/img/Barley%20Rice%20with%20Miso%20Marinated%20Grilled%20Salmon.jpg"
+        "img": "/img/delivery/Barley%20Rice%20with%20Miso%20Marinated%20Grilled%20Salmon.jpg"
       }
     ]
   },
@@ -98,102 +98,102 @@
       {
         "name": "ข้าวหน้าแกงกะหรี่",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Curry%20Rice.jpg"
+        "img": "/img/delivery/Curry%20Rice.jpg"
       },
       {
         "name": "ข้าวหน้าเนื้อ",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Gyu%20Don.jpg"
+        "img": "/img/delivery/Gyu%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าหมูทอด",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Katsu%20Don.jpg"
+        "img": "/img/delivery/Katsu%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าปลาซาบะ",
         "price": "ราคา 129 บาท",
-        "img": "https://oishifood.com/delivery/img/Saba%20Don.jpg"
+        "img": "/img/delivery/Saba%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าแซลมอนย่างซีอิ๊ว",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Teriyaki%20Don.jpg"
+        "img": "/img/delivery/Salmon%20Teriyaki%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าไก่ย่างซีอิ๊ว",
         "price": "ราคา 119 บาท",
-        "img": "https://oishifood.com/delivery/img/Yaki%20Teri%20Don.jpg"
+        "img": "/img/delivery/Yaki%20Teri%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าหมูเกาหลี",
         "price": "ราคา 109 บาท",
-        "img": "https://oishifood.com/delivery/img/Buta%20Stamina%20Don.jpg"
+        "img": "/img/delivery/Buta%20Stamina%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าเนื้อซอสยากินิคุ",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Beef%20Yakiniku%20Don%20.jpg"
+        "img": "/img/delivery/Beef%20Yakiniku%20Don%20.jpg"
       },
       {
         "name": "ข้าวหน้าหมูซอสยากินิคุ",
         "price": "ราคา 129 บาท",
-        "img": "https://oishifood.com/delivery/img/Pork%20Yakiniku%20Don%20.jpg"
+        "img": "/img/delivery/Pork%20Yakiniku%20Don%20.jpg"
       },
       {
         "name": "ข้าวหน้าไก่คาราเกะซอสเทอริยากิ",
         "price": "ราคา 109 บาท",
-        "img": "https://oishifood.com/delivery/img/Karaage%20Teriyaki%20Don.jpg"
+        "img": "/img/delivery/Karaage%20Teriyaki%20Don.jpg"
       },
       {
         "name": "ข้าวหน้ากุ้งผัดพริกเกลือ",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Stir%20Fried%20Shrimp%20with%20chilli.jpg"
+        "img": "/img/delivery/Stir%20Fried%20Shrimp%20with%20chilli.jpg"
       },
       {
         "name": "ข้าวหน้าเนื้อผัดกิมจิ",
         "price": "ราคา 109 บาท",
-        "img": "https://oishifood.com/delivery/img/Kimuchi%20Don%20(Beef).jpg"
+        "img": "/img/delivery/Kimuchi%20Don%20(Beef).jpg"
       },
       {
         "name": "ข้าวหน้าหมูผัดกิมจิ",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Kimuchi%20Don%20(Pork).jpg"
+        "img": "/img/delivery/Kimuchi%20Don%20(Pork).jpg"
       },
       {
         "name": "ข้าวหน้าเนื้อสไปซี่",
         "price": "ราคา 109 บาท",
-        "img": "https://oishifood.com/delivery/img/Spicy%20Don%20(Beef).jpg"
+        "img": "/img/delivery/Spicy%20Don%20(Beef).jpg"
       },
       {
         "name": "ข้าวหน้าหมูสไปซี่",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Spicy%20Don%20(Pork).jpg"
+        "img": "/img/delivery/Spicy%20Don%20(Pork).jpg"
       },
       {
         "name": "ข้าวหน้าหมูทงคัตสึ",
         "price": "ราคา 109 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkatsu%20Don.jpg"
+        "img": "/img/delivery/Tonkatsu%20Don.jpg"
       },
       {
         "name": "ข้าวหน้ากุ้งเทมปุระ",
         "price": "ราคา 119 บาท",
-        "img": "https://oishifood.com/delivery/img/Tempura%20Don.jpg"
+        "img": "/img/delivery/Tempura%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าไก่กรอบมาโย",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Chicken%20Katsu%20Don.jpg"
+        "img": "/img/delivery/Chicken%20Katsu%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าหมูพริกเกลือ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Buta%20Shio%20Togarashi%20Don.jpg"
+        "img": "/img/delivery/Buta%20Shio%20Togarashi%20Don.jpg"
       },
       {
         "name": "ข้าวหน้าหมูพริกไทยดำ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Buta%20Black%20Pepper%20Don.jpg"
+        "img": "/img/delivery/Buta%20Black%20Pepper%20Don.jpg"
       }
     ]
   },
@@ -204,27 +204,27 @@
       {
         "name": "ข้าวหน้าล้นหมูสไปซี่ไข่ออนเซน",
         "price": "ราคา 159 บาท",
-        "img": "https://oishifood.com/delivery/img/Spicy%20Don%20with%20Onsen%20Tamago%20(Pork)%20XL.jpg"
+        "img": "/img/delivery/Spicy%20Don%20with%20Onsen%20Tamago%20(Pork)%20XL.jpg"
       },
       {
         "name": "ข้าวหน้าล้นเนื้อสไปซี่ไข่ออนเซน",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Spicy%20Don%20with%20Onsen%20Tamago%20(Beef)%20XL.jpg"
+        "img": "/img/delivery/Spicy%20Don%20with%20Onsen%20Tamago%20(Beef)%20XL.jpg"
       },
       {
         "name": "ข้าวหน้าล้นไก่กรอบมาโย",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Chicken%20Katsu%20Don%20XL.jpg"
+        "img": "/img/delivery/Chicken%20Katsu%20Don%20XL.jpg"
       },
       {
         "name": "ข้าวหน้าล้นหมูย่างมิโซะ",
         "price": "ราคา 159 บาท",
-        "img": "https://oishifood.com/delivery/img/Buta%20Miso%20Yaki%20Don%20XL.jpg"
+        "img": "/img/delivery/Buta%20Miso%20Yaki%20Don%20XL.jpg"
       },
       {
         "name": "ข้าวหน้าล้นเบคอนย่าง",
         "price": "ราคา 159 บาท",
-        "img": "https://oishifood.com/delivery/img/Grilled%20Bacon%20Don%20XL.jpg"
+        "img": "/img/delivery/Grilled%20Bacon%20Don%20XL.jpg"
       }
     ]
   },
@@ -235,47 +235,47 @@
       {
         "name": "ทงคัตสึ ชาชู ราเมน",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkotsu%20Chashu%20Ramen.jpg"
+        "img": "/img/delivery/Tonkotsu%20Chashu%20Ramen.jpg"
       },
       {
         "name": "ทงคัตสึ ทงคัตสึ ราเมน",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkotsu%20-%20Tonkotsu%20Ramen.jpg"
+        "img": "/img/delivery/Tonkotsu%20-%20Tonkotsu%20Ramen.jpg"
       },
       {
         "name": "มิโซะ ชาชู ราเมน",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Miso%20Chashu%20Ramen.jpg"
+        "img": "/img/delivery/Miso%20Chashu%20Ramen.jpg"
       },
       {
         "name": "มิโซะ แซลมอน ราเมน",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Miso%20Salmon%20Ramen.jpg"
+        "img": "/img/delivery/Miso%20Salmon%20Ramen.jpg"
       },
       {
         "name": "โชยุ ชาชู ราเมน",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Shoyu%20Chashu%20Ramen.jpg"
+        "img": "/img/delivery/Shoyu%20Chashu%20Ramen.jpg"
       },
       {
         "name": "ราเมนต้มยำแซลมอน",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Tomyam%20Salmon%20Ramen.jpg"
+        "img": "/img/delivery/Tomyam%20Salmon%20Ramen.jpg"
       },
       {
         "name": "ราเมนต้มยำหมูชาชู",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Tomyam%20Chashu%20Ramen.jpg"
+        "img": "/img/delivery/Tomyam%20Chashu%20Ramen.jpg"
       },
       {
         "name": "โออิชิ ราเมน",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Oishi%20Ramen.jpg"
+        "img": "/img/delivery/Oishi%20Ramen.jpg"
       },
       {
         "name": "ราเมนไข่เจียวปูอัด",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Tenshin%20Ramen.jpg"
+        "img": "/img/delivery/Tenshin%20Ramen.jpg"
       }
     ]
   },
@@ -286,32 +286,32 @@
       {
         "name": "ราเมนไก่เทอริยากิแห้ง",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Teriyaki%20Chicken%20Stir-Fry%20Ramen.jpg"
+        "img": "/img/delivery/Teriyaki%20Chicken%20Stir-Fry%20Ramen.jpg"
       },
       {
         "name": "ราเมนกระเพรากรอบ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Basil%20Fumi%20Ramen.jpg"
+        "img": "/img/delivery/Basil%20Fumi%20Ramen.jpg"
       },
       {
         "name": "ราเมนหอยลายผัดพริกเผา",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Asari%20Ramen.jpg"
+        "img": "/img/delivery/Asari%20Ramen.jpg"
       },
       {
         "name": "ราเมนผัดขี้เมากุ้ง",
         "price": "ราคา 159 บาท",
-        "img": "https://oishifood.com/delivery/img/Kee%20Mao%20Shrimp%20Ramen.jpg"
+        "img": "/img/delivery/Kee%20Mao%20Shrimp%20Ramen.jpg"
       },
       {
         "name": "ราเมนผัดขี้เมาหมู",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Kee%20Mao%20Ramen.jpg"
+        "img": "/img/delivery/Kee%20Mao%20Ramen.jpg"
       },
       {
         "name": "ยากิโซบะ",
         "price": "ราคา 119 บาท",
-        "img": "https://oishifood.com/delivery/img/Yakisoba.jpg"
+        "img": "/img/delivery/Yakisoba.jpg"
       }
     ]
   },
@@ -322,57 +322,57 @@
       {
         "name": "แซลมอน เบนโตะ เซท",
         "price": "ราคา 249 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Bento%20Set.jpg"
+        "img": "/img/delivery/Salmon%20Bento%20Set.jpg"
       },
       {
         "name": "ซาบะ เบนโตะ เซท",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Saba%20Bento%20Set.jpg"
+        "img": "/img/delivery/Saba%20Bento%20Set.jpg"
       },
       {
         "name": "บูตะ สตามินะ เบนโตะ เซท",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Buta%20Stamina%20Bento%20Set.jpg"
+        "img": "/img/delivery/Buta%20Stamina%20Bento%20Set.jpg"
       },
       {
         "name": "ทงคัตสึ เบนโตะ เซท",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkatsu%20Bento%20Set.jpg"
+        "img": "/img/delivery/Tonkatsu%20Bento%20Set.jpg"
       },
       {
         "name": "ไก่คาราเกะ เบนโตะ เซท",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Karaage%20Bento%20Set.jpg"
+        "img": "/img/delivery/Karaage%20Bento%20Set.jpg"
       },
       {
         "name": "ซูชิ & เอบิโกะ เบนโตะ เซท",
         "price": "ราคา 219 บาท",
-        "img": "https://oishifood.com/delivery/img/Sushi%20&%20Ebiko%20Bento%20Set.jpg"
+        "img": "/img/delivery/Sushi%20&%20Ebiko%20Bento%20Set.jpg"
       },
       {
         "name": "ยากิโทริ เทอริยากิ เบนโตะ เซท",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Yakitori%20Teriyaki%20Bento%20Set.jpg"
+        "img": "/img/delivery/Yakitori%20Teriyaki%20Bento%20Set.jpg"
       },
       {
         "name": "เทปันยากิ กุ้ง เบนโตะ",
         "price": "ราคา 210 บาท",
-        "img": "https://oishifood.com/delivery/img/Shrimp%20Teppanyaki%20Bento.jpg"
+        "img": "/img/delivery/Shrimp%20Teppanyaki%20Bento.jpg"
       },
       {
         "name": "เทปันยากิ หมู เบนโตะ",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Pork%20Teppanyaki%20Bento.jpg"
+        "img": "/img/delivery/Pork%20Teppanyaki%20Bento.jpg"
       },
       {
         "name": "เทปันยากิ ไก่ เบนโตะ",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Chicken%20Teppanyaki%20Bento.jpg"
+        "img": "/img/delivery/Chicken%20Teppanyaki%20Bento.jpg"
       },
       {
         "name": "เทปันยากิ เนื้อวัว เบนโตะ",
         "price": "ราคา 199 บาท",
-        "img": "https://oishifood.com/delivery/img/Beef%20Teppanyaki%20Bento.jpg"
+        "img": "/img/delivery/Beef%20Teppanyaki%20Bento.jpg"
       }
     ]
   },
@@ -383,12 +383,12 @@
       {
         "name": "ชุดข้าวหน้าปลาแซลมอนย่างซีอิ๊ว",
         "price": "ราคา 259 บาท",
-        "img": "https://oishifood.com/delivery/img/Grilled%20Salmon%20Set.jpg"
+        "img": "/img/delivery/Grilled%20Salmon%20Set.jpg"
       },
       {
         "name": "ชุดข้าวหน้าปลาซาบะย่างซีอิ๊ว",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Grilled%20Saba%20Set.jpg"
+        "img": "/img/delivery/Grilled%20Saba%20Set.jpg"
       }
     ]
   },
@@ -399,27 +399,27 @@
       {
         "name": "ราเมนแกงกะหรี่ (น้ำ)",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Curry%20Ramen_Curry%20Udon%20Ramen%20%E0%B8%99%E0%B9%89%E0%B8%B3.jpg"
+        "img": "/img/delivery/Curry%20Ramen_Curry%20Udon%20Ramen%20%E0%B8%99%E0%B9%89%E0%B8%B3.jpg"
       },
       {
         "name": "ราเมนแกงกะหรี่ (แห้ง)",
         "price": "ราคา 139 บาท",
-        "img": "https://oishifood.com/delivery/img/Curry%20Ramen_Curry%20Udon%20Ramen%20)%20)%20%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+        "img": "/img/delivery/Curry%20Ramen_Curry%20Udon%20Ramen%20)%20)%20%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
       },
       {
         "name": "ข้าวแกงกะหรี่ไข่ข้นกุ้งจุใจ",
         "price": "ราคา 159 บาท",
-        "img": "https://oishifood.com/delivery/img/Ebi%20Tempura%20Omelete%20Curry.jpg"
+        "img": "/img/delivery/Ebi%20Tempura%20Omelete%20Curry.jpg"
       },
       {
         "name": "ข้าวแกงกะหรี่ไข่ข้นไก่กรอบ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Chicken%20Katsu%20Omelete%20Curry.jpg"
+        "img": "/img/delivery/Chicken%20Katsu%20Omelete%20Curry.jpg"
       },
       {
         "name": "ข้าวแกงกะหรี่ไข่ข้นหมูทงคัตสึ",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Tonkatsu%20Omelete%20Curry.jpg"
+        "img": "/img/delivery/Tonkatsu%20Omelete%20Curry.jpg"
       }
     ]
   },
@@ -430,17 +430,17 @@
       {
         "name": "สลัดญี่ปุ่น (น้ำข้น/ น้ำใส)",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Japanese%20Salad.jpg"
+        "img": "/img/delivery/Japanese%20Salad.jpg"
       },
       {
         "name": "ผัดผักรวมมิโซะ",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Miso%20Yasai%20Itame.jpg"
+        "img": "/img/delivery/Miso%20Yasai%20Itame.jpg"
       },
       {
         "name": "สลัดเต้าหู้ญี่ปุ่น",
         "price": "ราคา 69 บาท",
-        "img": "https://oishifood.com/delivery/img/Japanese%20Tofu%20Salad.jpg"
+        "img": "/img/delivery/Japanese%20Tofu%20Salad.jpg"
       }
     ]
   },
@@ -451,92 +451,92 @@
       {
         "name": "กุ้งเทมปูระ (4 ชิ้น)",
         "price": "ราคา 119 บาท",
-        "img": "https://oishifood.com/delivery/img/Ebi%20Tempura.jpg"
+        "img": "/img/delivery/Ebi%20Tempura.jpg"
       },
       {
         "name": "ไก่คาราเกะ",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Chicken%20Karaage.jpg"
+        "img": "/img/delivery/Chicken%20Karaage.jpg"
       },
       {
         "name": "ปูอัดอลาสก้าและคามาโบโกะซาซิมิ",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Alaska%20&%20Kani%20Kamaboku.jpg"
+        "img": "/img/delivery/Alaska%20&%20Kani%20Kamaboku.jpg"
       },
       {
         "name": "เทปันยากิ เกี๊ยวซ่า (7 ชิ้น)",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Teppanyaki%20Gyoza%207%20pcs.jpg"
+        "img": "/img/delivery/Teppanyaki%20Gyoza%207%20pcs.jpg"
       },
       {
         "name": "ยากิเกี๊ยวซ่าชีส",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Yaki%20Gyoza%20Cheese.jpg"
+        "img": "/img/delivery/Yaki%20Gyoza%20Cheese.jpg"
       },
       {
         "name": "แซลมอนวาซาบิแซ่บ",
         "price": "ราคา 149 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Wasabi%20Zaab.jpg"
+        "img": "/img/delivery/Salmon%20Wasabi%20Zaab.jpg"
       },
       {
         "name": "ไก่ป๊อปมาโย",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Mayo%20Chicken%20Pop.jpg"
+        "img": "/img/delivery/Mayo%20Chicken%20Pop.jpg"
       },
       {
         "name": "ข้าวห่อสาหร่ายคลุกไข่กุ้ง",
         "price": "ราคา 130 บาท",
-        "img": "https://oishifood.com/delivery/img/California%20Maki.jpg"
+        "img": "/img/delivery/California%20Maki.jpg"
       },
       {
         "name": "เกี๊ยวซ่า (5 ชิ้น)",
         "price": "ราคา 69 บาท",
-        "img": "https://oishifood.com/delivery/img/Gyoza%20(5%20pcs).jpg"
+        "img": "/img/delivery/Gyoza%20(5%20pcs).jpg"
       },
       {
         "name": "ขนมครกญี่ปุ่น",
         "price": "ราคา 79 บาท",
-        "img": "https://oishifood.com/delivery/img/Takoyaki.jpg"
+        "img": "/img/delivery/Takoyaki.jpg"
       },
       {
         "name": "ปูอัดซาซิมิ",
         "price": "ราคา 75 บาท",
-        "img": "https://oishifood.com/delivery/img/Kani%20Kamaboko.jpg"
+        "img": "/img/delivery/Kani%20Kamaboko.jpg"
       },
       {
         "name": "เทมปุระรวม (สาหร่าย, กุ้ง, หัวหอม, แครอท)",
         "price": "ราคา 119 บาท",
-        "img": "https://oishifood.com/delivery/img/Tempura.jpg"
+        "img": "/img/delivery/Tempura.jpg"
       },
       {
         "name": "ปูอัดอลาสก้า",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Alaska%20Kani%20Kamaboku%20.jpg"
+        "img": "/img/delivery/Alaska%20Kani%20Kamaboku%20.jpg"
       },
       {
         "name": "กุ้งทอดอิซากายะ",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Ebi%20Fried.jpg"
+        "img": "/img/delivery/Ebi%20Fried.jpg"
       },
       {
         "name": "ปูอัดทอดสมุนไพร",
         "price": "ราคา 89 บาท",
-        "img": "https://oishifood.com/delivery/img/Fried%20Kani%20Kamaboko%20with%20Thai%20Herb.jpg"
+        "img": "/img/delivery/Fried%20Kani%20Kamaboko%20with%20Thai%20Herb.jpg"
       },
       {
         "name": "กระเพาะปลาน้ำแดง",
         "price": "ราคา 99 บาท",
-        "img": "https://oishifood.com/delivery/img/Fish%20Maw%20Soup.jpg"
+        "img": "/img/delivery/Fish%20Maw%20Soup.jpg"
       },
       {
         "name": "หัวปลาแซลมอนต้มซีอิ้ว",
         "price": "ราคา 169 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20Kabutoni%20(Steamed%20Salmon%20head%20with%20soy%20sauce).jpg"
+        "img": "/img/delivery/Salmon%20Kabutoni%20(Steamed%20Salmon%20head%20with%20soy%20sauce).jpg"
       },
       {
         "name": "ขาเป็ดน้ำแดง",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Stewed%20Duck%20feet%20in%20Brown%20sauce.jpg"
+        "img": "/img/delivery/Stewed%20Duck%20feet%20in%20Brown%20sauce.jpg"
       }
     ]
   },
@@ -547,47 +547,47 @@
       {
         "name": "ซูชิจูเนียร์",
         "price": "ราคา 145 บาท",
-        "img": "https://oishifood.com/delivery/img/Sushi%20Junior.jpg"
+        "img": "/img/delivery/Sushi%20Junior.jpg"
       },
       {
         "name": "ฟูโตมากิ",
         "price": "ราคา 115 บาท",
-        "img": "https://oishifood.com/delivery/img/Futomaki%20Sushi.jpg"
+        "img": "/img/delivery/Futomaki%20Sushi.jpg"
       },
       {
         "name": "ซูชิแซลมอนกริลล์",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Aburi%20Salmon%20Sushi.jpg"
+        "img": "/img/delivery/Aburi%20Salmon%20Sushi.jpg"
       },
       {
         "name": "ข้าวปั้นหน้าปลาแซลมอนย่างเกลือ",
         "price": "ราคา 189 บาท",
-        "img": "https://oishifood.com/delivery/img/Aburi%20Salmon%20Nigiri.jpg"
+        "img": "/img/delivery/Aburi%20Salmon%20Nigiri.jpg"
       },
       {
         "name": "ข้าวปั้นหน้าปลาไหลญี่ปุ่นย่างซีอิ๊ว",
         "price": "ราคา 300 บาท",
-        "img": "https://oishifood.com/delivery/img/Unagi%20Nigiri.jpg"
+        "img": "/img/delivery/Unagi%20Nigiri.jpg"
       },
       {
         "name": "แซลมอนชีสโรล",
         "price": "ราคา 199 บาท",
-        "img": "https://oishifood.com/delivery/img/Salmon%20cheese%20roll.jpg"
+        "img": "/img/delivery/Salmon%20cheese%20roll.jpg"
       },
       {
         "name": "ไข่หวานย่าง",
         "price": "ราคา 129 บาท",
-        "img": "https://oishifood.com/delivery/img/Tamago%20Yaki.jpg"
+        "img": "/img/delivery/Tamago%20Yaki.jpg"
       },
       {
         "name": "ข้าวปั้นหน้าปลาซาบะสเต็ก",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Saba%20Steak%20Nigiri.jpg"
+        "img": "/img/delivery/Saba%20Steak%20Nigiri.jpg"
       },
       {
         "name": "ข้าวปั้นหน้ารวม",
         "price": "ราคา 179 บาท",
-        "img": "https://oishifood.com/delivery/img/Mixed%20Sushi.jpg"
+        "img": "/img/delivery/Mixed%20Sushi.jpg"
       }
     ]
   },
@@ -598,22 +598,22 @@
       {
         "name": "ยำสาหร่าย",
         "price": "ราคา 69 บาท",
-        "img": "https://oishifood.com/delivery/img/Hiyashi%20Wagame.jpg"
+        "img": "/img/delivery/Hiyashi%20Wagame.jpg"
       },
       {
         "name": "กิมจิ",
         "price": "ราคา 49 บาท",
-        "img": "https://oishifood.com/delivery/img/Kimuchi.jpg"
+        "img": "/img/delivery/Kimuchi.jpg"
       },
       {
         "name": "ไข่ออนเซ็น",
         "price": "ราคา 25 บาท",
-        "img": "https://oishifood.com/delivery/img/Tamago%20Onsen.jpg"
+        "img": "/img/delivery/Tamago%20Onsen.jpg"
       },
       {
         "name": "มิโซะซุป",
         "price": "ราคา 25 บาท",
-        "img": "https://oishifood.com/delivery/img/Miso%20Soup.jpg"
+        "img": "/img/delivery/Miso%20Soup.jpg"
       }
     ]
   },
@@ -624,12 +624,12 @@
       {
         "name": "ถั่วแดงโมจิ",
         "price": "ราคา 69 บาท",
-        "img": "https://oishifood.com/delivery/img/Sweet%20Red%20Bean%20and%20Mochi.jpg"
+        "img": "/img/delivery/Sweet%20Red%20Bean%20and%20Mochi.jpg"
       },
       {
         "name": "หนังปลาแซลมอนทอดคลุกไข่เค็ม",
         "price": "ราคา 100 บาท",
-        "img": "https://oishifood.com/delivery/img/Salted%20Egg%20Salmon%20Skin.jpg"
+        "img": "/img/delivery/Salted%20Egg%20Salmon%20Skin.jpg"
       }
     ]
   }

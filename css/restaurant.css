@@ -27,7 +27,7 @@
 }
 
 .selectbox select{
-    background: url(https://www.oishifood.com/img/arrow-down.png) no-repeat #f2f2f2;
+    background: url(/img/all/arrow-down.png) no-repeat #f2f2f2;
     background-position: 98%;
     -webkit-appearance: none; /* to remove default arrow down */
     font-size: 16px;
