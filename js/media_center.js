@@ -20,7 +20,7 @@ function dataReportStatus(data) {
         meterial.insertAdjacentHTML("beforeend",
         "<h4 id='posthead'>" + data[i].header + "</h4>");
         meterial.insertAdjacentHTML("beforeend",
-        "<p class='font-regular' id='date'><i class='fas fa-calendar-alt mini-calender'></i> " + data[i].date +"</p>");
+        "<p class='font-regular' id='date'><i class='fa fa-calendar'></i> " + data[i].date +"</p>");
         meterial.insertAdjacentHTML("beforeend",
         "<div class='font-light' id='meterial_infront'>" + data[i].meterial_infront + "</div>");
         meterial.insertAdjacentHTML("beforeend",
