@@ -29,7 +29,7 @@ function dataReportStatus(data) {
         "<div class='modal-dialog modal-dialog-centered'>"
         + " <div class='modal-content'>"
         + "<div class='modal-header'>"
-        + "<button type='button' class='close' data-dismiss='modal'><img src='https://www.oishifood.com/img/x-close.png'></button>"
+        + "<button type='button' class='close' data-dismiss='modal'><img src='img/all/x-close.png'></button>"
         + "</div>"
         + "<div class='modal-body'>"
         + "<img src='" + data[i].image + "' id='full_image'>"
