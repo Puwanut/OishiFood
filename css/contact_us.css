@@ -17,6 +17,8 @@
 #small_text_box{
     width : 351.21px;
     height : 40.8px;
+    border: solid 2px  #dddddd;
+    border-radius: 0px;
 }
 #small_text_box:focus{
     outline-color: #aaaaaa;
@@ -24,6 +26,8 @@
 #big_text_box{
     width : 351.21px;
     height : 103.2px;
+    border: solid 2px  #dddddd;
+    border-radius: 0px;
 }
 #big_text_box:focus{
     outline-color: #aaaaaa;
