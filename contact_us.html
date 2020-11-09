@@ -31,7 +31,7 @@
 
 </head>
 
-<body onload="document.body.style.opacity='1'" onbeforeunload="document.body.style.opacity='0'">
+<body onload="document.body.style.opacity='1'" onchange="contactUsOn()" onbeforeunload="document.body.style.opacity='0'">
 
     <header>
         <nav class="topnav" id="myTopnav">
@@ -138,7 +138,7 @@
                     <div class="col-md-6" style="margin-bottom: 50px;">
                         <h1 id="contact_all_subhead">OISHI &nbsp;<span class="font-extra-light">CONTACT  &nbsp;FORM</span></h1>
                         <br><br>
-                        <div class="row">
+                        <div class="row" id="fate">
                             <div class="col-4"><label id="contact_input_topic">* ชื่อ</label></div>
                             <div class="col-8" style="margin-bottom: 20px;">
                                 <input id="small_text_box" class="firstname" type="text" value="">
@@ -149,15 +149,15 @@
                             </div>
                             <div class="col-4"><label id="contact_input_topic">โทรศัพท์</label></div>
                             <div class="col-8" style="margin-bottom: 20px;">
-                                <input id="small_text_box" type="number">
+                                <input id="small_text_box" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
                             </div>
                             <div class="col-4"><label id="contact_input_topic">* อีเมล</label></div>
                             <div class="col-8" style="margin-bottom: 20px;">
-                                <input id="small_text_box" class="email" type="email">
+                                <input id="small_text_box" class="email" type="email" value="">
                             </div>
                             <div class="col-4"><label id="contact_input_topic">* ข้อความ</label></div>
                             <div class="col-8" style="margin-bottom: 20px;">
-                                <textarea id="big_text_box" class="message" type="text"></textarea>
+                                <textarea id="big_text_box" class="message" type="text" value=""></textarea>
                             </div>
                             <div class="col-md-4"><label id="contact_input_topic">ไฟล์แนบ (ถ้ามี)</label></div>
                             <div class="col-md-8" style="margin-bottom: 20px;">
