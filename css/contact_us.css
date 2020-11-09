@@ -18,9 +18,15 @@
     width : 351.21px;
     height : 40.8px;
 }
+#small_text_box:focus{
+    outline-color: #aaaaaa;
+}
 #big_text_box{
     width : 351.21px;
     height : 103.2px;
+}
+#big_text_box:focus{
+    outline-color: #aaaaaa;
 }
 #contact_input_topic{
     float : right;
