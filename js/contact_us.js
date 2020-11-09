@@ -15,7 +15,7 @@ function contactUs(){
     }
     else{
         for(var i = 0; i < email; i++){
-            if((in_email.charCodeAt(i) == 64) && (in_email.charAt(i) != null) && (in_email.charAt(i) != null)){
+            if((in_email.charCodeAt(i) == 64) && (in_email.charAt(i-1) != "") && (in_email.charAt(i+1) != "")){
                 document.getElementsByClassName("email")[0].style.border = "solid #dddddd 2px";
                 break;
             }
