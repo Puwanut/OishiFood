@@ -1,6 +1,6 @@
 // import json
 let json_data;
-let requestURL = '../restaurant_sample.json';
+let requestURL = '../json/restaurant_branch.json';
 let request = new XMLHttpRequest();
 request.onreadystatechange = function () {
     if (request.readyState == 4 && request.status == 200) {
