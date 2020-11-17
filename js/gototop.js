@@ -13,9 +13,4 @@ $(document).ready(
                 $('body,html').animate({ scrollTop: 0 }, 0);
             });
         });
-
-        //ฝากไว้ (ไม่เกี่ยวกับ gotoTop)
-        // $("#navButton").click(function () {
-        //     $(".navbar").toggleClass("bg-light");
-        // });
     });

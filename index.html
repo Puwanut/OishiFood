@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OISHI | โออิชิ - oishifood.com</title>
-    <link rel="shortcut icon" href="https://www.oishifood.com/img/favicon.png">
+    <link rel="shortcut icon" href="img/all/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -145,7 +145,7 @@
                         <div class="col-lg-4 text-center">
                                 <h2 style="font-size: 30px; color: #464646" class="font-regular mb-0">โออิชิ เดลิเวอรี่</h2>
                                 <p>
-                                    <a href="https://oishifood.com/download/Leaflet_OISHI_Delivery.pdf" target="_blank">
+                                    <a href="Leaflet_OISHI_Delivery.pdf" target="_blank">
                                         <img src="img/homepage/home_download_pdf.png" class="img-fluid">
                                     </a>
                                 </p>
@@ -533,7 +533,7 @@
                         <li><a href="promotion.html?ref=restaurant">• Oishi Restaurant</a></li>
                         <li><a href="promotion.html?ref=packed-food">• Oishi Packed Food</a></li>
                         <li><a href="promotion.html?ref=delivery">• Oishi Delivery</a></li>
-                        <li><a href="promotion.html">• Beverage</a></li>
+                        <li><a href="promotion.html?ref=beverage">• Beverage</a></li>
                     </ul>
                     <a href="media_center.html">Media Center</a>
 
@@ -561,7 +561,7 @@
                         <li><a href="packed_food.html?ref=tab-3">• โออิชิ อีทโตะ แซนวิช</a></li>
                         <li><a href="packed_food.html?ref=tab-4">• โออิชิ อีทโตะ เรดดี้มีล</a></li>
                         <li><a href="packed_food.html?ref=tab-5">• โออิชิ อีทโตะ อาหารว่าง</a></li>
-                        <li><a href="packed_food.html">• Promotion</a></li>
+                        <li><a href="packed_food.html#promotion">• Promotion</a></li>
                         <li><a href="packed_food.html#business-partners">• Business Partners</a></li>
                     </ul>
 
@@ -608,13 +608,15 @@
     <script src="js/navbar.js" type="text/javascript"></script>
     <script type="text/javascript">
         let homepage_banner = document.getElementById("homepage-banner");
+
+        //banner parallax
         window.onscroll = function () {
             if (!window_size.matches)
                 homepage_banner.style.transform = "translateY(" + (window.scrollY / 2) + "px)";
             else
                 homepage_banner.style.transform = "none";
         };
-        //P.S. var window_size written in navbar.js
+        //P.S. var window_size is declared in navbar.js
     </script>
 
 </body>
