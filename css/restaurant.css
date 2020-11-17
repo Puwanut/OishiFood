@@ -21,6 +21,13 @@
     color: black;
 }
 
+.entry-image img {
+    transition: opacity .4s;
+}
+
+.entry-image img:hover {
+    opacity: 0.8;
+}
 
 #dropdown-location {
     margin-bottom: 40px;
