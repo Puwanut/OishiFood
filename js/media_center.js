@@ -32,7 +32,7 @@ function dataReportStatus(data) {
         + "<button type='button' class='close' data-dismiss='modal'><img src='img/all/x-close.png'></button>"
         + "</div>"
         + "<div class='modal-body'>"
-        + "<img src='" + data[i].image + "' id='full_image'>"
+        + "<img src='" + data[i].image_full + "' id='full_image'>"
         + "<h1 id='full_topic' class='font-regular'>" + data[i].header + "</h1>"
         + "<p id='f_meterial' class='font-light'>" + data[i].meterial1 + "<br><br>" + data[i].meterial2 + "<p>");
         fullMeterial.insertAdjacentHTML("beforeend", "</div>");
