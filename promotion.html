@@ -103,10 +103,9 @@
 
     <div class="main-content">
         <div class="img-tear-bottom"></div>
-        <div class="img-bg" style="background-image: url('img/packed_food/bg_packed.jpg');">
+        <div class="img-bg" style="background-image: url('img/promotion/bg_promotion.jpg');">
             <div class="container" style="padding-top: 40px">
 
-                    <!-- Coding here -->
                     <div class="container clearfix">
                         <!--////////////////////// Header Tab //////////////////////-->
                         <div class="col-7">
@@ -116,9 +115,12 @@
                         </div>
                         <div class="col-md-4 col_last selectbox" >
                             <div class="promotion-search">
-                                <select style=" background-position-x: 98%;background: url(img/promotion/arrow-down.png) no-repeat right #f2f2f2;overflow: visible !important;overflow: -moz-hidden-unscrollable;" id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="promo()">
+                                <select id="template-contactform-service" name="template-contactform-service" class="branch-form-control" onchange="promo()">
                                     <option value="">-- เลือกทั้งหมด --</option>
-                                <option value="1">Oishi Restaurant</option><option value="2">Oishi Packed Food</option><option value="3">Oishi Delivery</option>                            </select>
+                                    <option value="1">Oishi Restaurant</option>
+                                    <option value="2">Oishi Packed Food</option>
+                                    <option value="3">Oishi Delivery</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -129,7 +131,7 @@
                         <div class="row rowed" id="rowed" >
                             <div class="col-4 promotion-block clearfix FadeIn" id="block1" style="display: block;">
                                 <div class="entry-image " data-toggle="modal" data-target="#modalpromo3">
-                                    <a href="#myModal147" data-lightbox="inline"><img class="image_fade img-fluid" src="img/promotion/201102044217_HamTofu-800px.jpg" alt="คาคาชิ เซทโตะ" title="คาคาชิ เซทโตะ" style="opacity: 1;"></a>
+                                    <a href="#modalpromo3" data-lightbox="inline"><img class="img-fluid" src="img/promotion/201102044217_HamTofu-800px.jpg" alt="คาคาชิ เซทโตะ" title="คาคาชิ เซทโตะ" style="opacity: 1;"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h2 class="font-light">คาคาชิ ข้าวหน้าล้นสไตล์ญี่ปุ่น ขอเสนอ 2 เมนูใหม่</h2>
@@ -137,16 +139,16 @@
                                 <div class="entry-date">
                                     <p> 1 พฤศจิกายน 2563 - 31 ธันวาคม 2563</p>
                                 </div>
-                                <div class="oishi-button" data-toggle="modal" data-target="#modalpromo1">
-                                    <a href="#modalpromo1" class="btn-seemore">
-                                        <i class="fa fa-angle-right cc_pointer" aria-hidden="true"></i>
+                                <div class="oishi-button" data-toggle="modal" data-target="#modalpromo3">
+                                    <a href="#modalpromo3" class="btn-seemore">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         <span>รายละเอียด</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-4 promotion-block clearfix FadeIn" id="block2" style="display: block;">
                                 <div class="entry-image " data-toggle="modal" data-target="#modalpromo1">
-                                    <a href="#myModal147" data-lightbox="inline"><img class="image_fade img-fluid" src="img/promotion/201026074957_02-800x800px-Duoset.jpg" alt="คาคาชิ เซทโตะ" title="คาคาชิ เซทโตะ" style="opacity: 1;"></a>
+                                    <a href="#modalpromo1" data-lightbox="inline"><img class="img-fluid" src="img/promotion/201026074957_02-800x800px-Duoset.jpg" alt="คาคาชิ เซทโตะ" title="คาคาชิ เซทโตะ" style="opacity: 1;"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h2 class="font-light">คาคาชิ เซทโตะ</h2>
@@ -156,14 +158,14 @@
                                 </div>
                                 <div class="oishi-button" data-toggle="modal" data-target="#modalpromo1">
                                     <a href="#modalpromo1" class="btn-seemore">
-                                        <i class="fa fa-angle-right cc_pointer" aria-hidden="true"></i>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         <span>รายละเอียด</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-4 promotion-block clearfix FadeIn" id="block3" style="display: block;">
                                 <div class="entry-image" data-toggle="modal" data-target="#modalpromo2">
-                                    <a href="#modalpromo2" data-lightbox="inline"></a><img class="image_fade img-fluid" src="img/promotion/200930111728_Rm_NPD%20800x800px.jpg" alt="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" title="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" style="opacity: 1;"></a>
+                                    <a href="#modalpromo2" data-lightbox="inline"></a><img class="img-fluid" src="img/promotion/200930111728_Rm_NPD%20800x800px.jpg" alt="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" title="ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน" style="opacity: 1;"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h2 class="font-light">ใหม่ ! การ์ลิค บูตะ ทงคตสึ ราเมน</h2>
@@ -173,7 +175,7 @@
                                 </div>
                                 <div class="oishi-button cc_cursor" data-toggle="modal" data-target="#modalpromo2">
                                     <a href="#modalpromo2" class="btn-seemore">
-                                        <i class="fa fa-angle-right cc_pointer" aria-hidden="true"></i>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
                                         <span>รายละเอียด</span>
                                     </a>
                                 </div>

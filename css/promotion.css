@@ -15,7 +15,6 @@
     float: right;
 }
 
-
 .close-menu-popup{
 	position: absolute;
     padding: 0;
@@ -48,7 +47,13 @@
 }
 .promotion-block .entry-image{
     margin-bottom: 20px;
+    transition: opacity .4s;
 }
+
+.promotion-block .entry-image:hover {
+    opacity: 0.8;
+}
+
 .promotion-block .pic {
 	margin-bottom: 20px;
 }
