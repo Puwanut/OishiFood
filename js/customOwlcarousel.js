@@ -58,4 +58,11 @@ $(document).ready(
                 }
             }
         });
+        $('.owl-carousel#owl-oishi-ramen, .owl-carousel#owl-kakashi').owlCarousel({
+            loop: false,
+            margin: 20,
+            dots: false,
+            nav: false,
+            items: 3
+        });
     });
